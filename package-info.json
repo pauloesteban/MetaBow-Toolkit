@@ -1,7 +1,7 @@
 {
 	"name": "Metabow Toolkit",
 	"type": "package",
-	"author": "James Bradbury / Paulo Chiliguano / Roberto Trillo",
+	"author": "James Bradbury, Paulo Chiliguano and  Roberto Trillo",
 	"description": "A set of utilities for gesture recognition and mapping with the MetaBow.",
 	"version": "0.2",
 	"major_version": "0",
