@@ -167,7 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 60.0, 391.0, 93.0 ],
-					"text" : "To assist you in receiving data from the MetaBow, there is an 'extractor' abstraction. This aids you in connecting to the device and observing any changes to the integirty of the connection in real-time. While this toolkit is designed to be used with the MetaBow hardware, other extractors are offered to integrate different hardware with the other abstractions such as for the r-IoT Bitalino."
+					"text" : "To assist you in receiving data from the MetaBow, there is an 'extractor' abstraction. This aids you in connecting to the device and observing any changes to the integrity of the connection in real-time. While this toolkit is designed to be used with the MetaBow hardware, other extractors are offered to integrate different hardware with the other abstractions such as for the r-IoT Bitalino."
 				}
 
 			}
