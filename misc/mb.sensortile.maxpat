@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 81.0, 87.0, 925.0, 779.0 ],
+		"rect" : [ 85.0, 87.0, 925.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 555.0, 105.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 90.0, 35.0, 22.0 ],
-					"text" : "echo"
+					"patching_rect" : [ 615.0, 90.0, 271.0, 49.0 ],
+					"text" : "/Users/paulochiliguano/Downloads/steval_bridge;\rexit;\r"
 				}
 
 			}
@@ -96,7 +109,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 727.0, 225.0, 925.0, 779.0 ],
+						"rect" : [ 481.0, 225.0, 925.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -865,7 +878,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -922,6 +935,20 @@
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 360.5, 324.0, 360.5, 324.0 ],
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
