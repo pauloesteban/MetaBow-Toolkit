@@ -46,20 +46,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 555.0, 105.0, 24.0, 24.0 ]
+					"patching_rect" : [ 615.0, 30.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 90.0, 271.0, 49.0 ],
-					"text" : "/Users/paulochiliguano/Downloads/steval_bridge;\rexit;\r"
+					"patching_rect" : [ 540.0, 87.5, 267.0, 22.0 ],
+					"text" : "/Users/paulochiliguano/Downloads/steval_bridge"
 				}
 
 			}
@@ -82,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 540.0, 135.0, 33.0, 22.0 ],
+					"patching_rect" : [ 540.0, 168.5, 33.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"shell" : "(default)"
 					}
