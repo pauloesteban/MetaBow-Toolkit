@@ -8,7 +8,7 @@
 
 ## Installation
 1. Clone (or download) this repository
-2. Move the `MetaBow-Toolkit` folder to your `Max 8/Packages/` folder
+2. Move the `MetaBow-Toolkit` folder into your `Max 8/Packages/` folder
 3. Install via Show Package Manager
 
 ## Additional steps
@@ -25,5 +25,6 @@ xattr -r -d com.apple.quarantine Max\ 8/Packages/Antescofo/externals/antescofo~.
 
 
 ## Credits
-Based on the work by James Bradbury and Paulo Chiliguano
-Directed by Roberto Alonso Trillo
+Based on the work by James Bradbury and Paulo Chiliguano.
+
+Directed by Roberto Alonso Trillo.
