@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 87.0, 925.0, 779.0 ],
+		"rect" : [ 78.0, 87.0, 1038.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,8 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 87.5, 267.0, 22.0 ],
-					"text" : "/Users/paulochiliguano/Downloads/steval_bridge"
+					"patching_rect" : [ 540.0, 87.5, 392.0, 22.0 ],
+					"text" : "\"~/Documents/Max 8/Packages/MetaBow-Toolkit/misc/metabow_bridge\""
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 540.0, 168.5, 33.0, 22.0 ],
+					"patching_rect" : [ 540.0, 135.0, 33.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"shell" : "(default)"
 					}
@@ -136,7 +136,6 @@
 						"style" : "",
 						"subpatcher_template" : "Default Max 7",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-71",
@@ -350,12 +349,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 10,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 585.0, 236.5, 420.0, 141.0 ],
-					"text" : "The IMU OSC message starts with /<ID>/raw followed by a list of 21 float numbers that split as the following (physical units sent as I.S. units)\n- 3 axis accelerometer (1 float per axis) {-8 ; +8} g\n- 3 axis gyroscope {-2 ; +2} °/s\n- 3 axis magnetometer {-2 ; +2} gauss\n- Temperature °K\n- Switch (GPIO28) {0 / 1}\n- Analog Inputs (GPIO3 & GPIO4) {0 ; 4095}\n- Quaternions {-1 ; 1}\n- Euler Angles and Heading {-180 ; 180} °"
+					"patching_rect" : [ 585.0, 236.5, 420.0, 87.0 ],
+					"text" : "The OSC message starts with /<ID>/raw followed by a list of 10 int16 numbers that split as the following:\n- 1 timestamp\n- 3 axis accelerometer\n- 3 axis gyroscope\n- 3 axis magnetometer"
 				}
 
 			}
