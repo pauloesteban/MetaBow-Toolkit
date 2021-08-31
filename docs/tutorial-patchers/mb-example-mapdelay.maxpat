@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1266.0, 749.0 ],
+		"rect" : [ 476.0, 115.0, 1266.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,27 @@
 		"assistshowspatchername" : 0,
 		"title" : "MetaBow Toolkit Example - Delay Map",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "mb.sensortile.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 122.0, 165.0, 151.0 ],
+					"varname" : "grec-bitalino[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Lato",
 					"fontsize" : 24.0,
@@ -232,27 +253,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-42",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mb.bitalino.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 120.0, 165.0, 150.0 ],
-					"varname" : "mb.bitalino",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-29",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -397,7 +397,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -725,14 +725,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 264.5, 273.0, 264.5, 273.0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 264.5, 480.0, 369.5, 480.0 ],
 					"order" : 0,
@@ -746,6 +738,14 @@
 					"midpoints" : [ 264.5, 468.0, 264.5, 468.0 ],
 					"order" : 1,
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"midpoints" : [ 264.5, 273.0, 264.5, 273.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -783,13 +783,13 @@
 			"obj-28::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-28::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-29" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-42::obj-1" : [ "live.numbox[5]", "live.numbox[5]", 0 ],
-			"obj-42::obj-11" : [ "live.tab[6]", "live.tab[1]", 0 ],
-			"obj-42::obj-15" : [ "live.numbox[6]", "live.numbox[5]", 0 ],
-			"obj-42::obj-16" : [ "live.numbox[15]", "live.numbox", 0 ],
-			"obj-42::obj-17" : [ "live.text[5]", "live.text[1]", 0 ],
 			"obj-48::obj-3::obj-15" : [ "live.dial[1]", "Smoothing", 0 ],
 			"obj-48::obj-3::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-5::obj-1" : [ "live.numbox[16]", "live.numbox[5]", 0 ],
+			"obj-5::obj-11" : [ "live.tab[7]", "live.tab[1]", 0 ],
+			"obj-5::obj-15" : [ "live.numbox[18]", "live.numbox[5]", 0 ],
+			"obj-5::obj-16" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-5::obj-17" : [ "live.text[8]", "live.text[1]", 0 ],
 			"obj-9::obj-10" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-9::obj-31" : [ "live.tab[5]", "live.tab[3]", 0 ],
 			"obj-9::obj-35" : [ "live.text[7]", "live.text", 0 ],
@@ -825,20 +825,56 @@
 					"parameter_longname" : "live.numbox[3]"
 				}
 ,
-				"obj-42::obj-11" : 				{
-					"parameter_longname" : "live.tab[6]"
-				}
-,
-				"obj-42::obj-16" : 				{
-					"parameter_longname" : "live.numbox[15]"
-				}
-,
 				"obj-48::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.dial[1]"
 				}
 ,
 				"obj-48::obj-3::obj-3" : 				{
 					"parameter_longname" : "live.tab[4]"
+				}
+,
+				"obj-5::obj-1" : 				{
+					"parameter_longname" : "live.numbox[16]"
+				}
+,
+				"obj-5::obj-11" : 				{
+					"parameter_longname" : "live.tab[7]"
+				}
+,
+				"obj-5::obj-15" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+,
+				"obj-5::obj-16" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
+				"obj-5::obj-17" : 				{
+					"parameter_longname" : "live.text[8]"
+				}
+,
+				"obj-9::obj-10" : 				{
+					"parameter_longname" : "live.numbox[14]"
+				}
+,
+				"obj-9::obj-31" : 				{
+					"parameter_longname" : "live.tab[5]"
+				}
+,
+				"obj-9::obj-35" : 				{
+					"parameter_longname" : "live.text[7]"
+				}
+,
+				"obj-9::obj-7" : 				{
+					"parameter_longname" : "live.numbox[11]"
+				}
+,
+				"obj-9::obj-8" : 				{
+					"parameter_longname" : "live.numbox[12]"
+				}
+,
+				"obj-9::obj-9" : 				{
+					"parameter_longname" : "live.numbox[13]"
 				}
 
 			}
@@ -848,14 +884,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mb.mapper.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.mapper.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -897,35 +933,39 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.bitalino.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mb.accel.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mb.sensortile.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
  ],
