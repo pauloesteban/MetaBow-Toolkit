@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 88.0, 1239.0, 927.0 ],
+		"rect" : [ 84.0, 87.0, 1322.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,13 +62,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1239.0, 901.0 ],
+						"rect" : [ 0.0, 26.0, 1322.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -100,12 +100,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 38,
+									"linecount" : 36,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 66.0, 518.0 ],
+									"patching_rect" : [ 465.0, 450.0, 69.0, 491.0 ],
 									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example, the 'likelihood' data for each pose is used to control the volume of different streams of signals, allowing you to dynamically control sound by interpolating different positions."
 								}
 
@@ -175,7 +175,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 8,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -453,7 +453,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 8,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -997,13 +997,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 114.0, 1239.0, 901.0 ],
+						"rect" : [ 84.0, 113.0, 1322.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1074,7 +1074,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 8,
 									"presentation_rect" : [ 15.0, 62.0, 589.0, 141.0 ],
-									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense. Make sure you to not only look at the abstractions but "
+									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Department of Music - Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense. Make sure you to not only look at the abstractions..."
 								}
 
 							}
@@ -1107,7 +1107,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 8,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1330,15 +1330,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 5,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 198.0, 90.0 ],
+									"patching_rect" : [ 450.0, 660.0, 198.0, 107.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 165.0, 377.0, 271.0, 74.0 ],
-									"text" : "This section explores abstractions responsible for the treatment and sanitisation of sensor data including smoothing techniques.",
+									"text" : "The processing abstractions perform more complex actions , where data is analysed both off-line and in real-time for gesture recognition and other purposes.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1427,7 +1427,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 8,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1670,7 +1670,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 165.0, 255.0, 271.0, 90.0 ],
-									"text" : "The sensor data we receive is sometimes unruly and requires sanitisation , scaling or treatment in other ways. This section covers a range of abstractions for dealing with these issues.",
+									"text" : "Processing is an umbrella term capturing a number of applications involving our sensor data. For example , this can include continuous and discrete gesture recognition or simple 1-to-1 mapping.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1693,14 +1693,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
-									"text" : "Sensor Control",
+									"text" : "Processing",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1955,14 +1954,14 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "mb-directory.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb-examples.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1

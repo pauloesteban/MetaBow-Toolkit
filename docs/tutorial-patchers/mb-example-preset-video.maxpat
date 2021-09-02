@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1239.0, 899.0 ],
+		"rect" : [ 84.0, 87.0, 1322.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -516,7 +516,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 90.0, 142.0, 58.0, 22.0 ],
+					"patching_rect" : [ 105.0, 142.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -528,7 +528,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 180.0, 126.0, 22.0 ],
+					"patching_rect" : [ 105.0, 180.0, 126.0, 22.0 ],
 					"text" : "smoothing 11, mode 1"
 				}
 
@@ -540,8 +540,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 142.0, 67.0, 22.0 ],
-					"text" : "mb.bitalino",
+					"patching_rect" : [ 15.0, 142.0, 80.0, 22.0 ],
+					"text" : "mb.sensortile",
 					"varname" : "mb.bitalino"
 				}
 
@@ -631,7 +631,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 99.5, 219.0, 24.5, 219.0 ],
+					"midpoints" : [ 114.5, 219.0, 24.5, 219.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -846,42 +846,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mb.accel.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.bitalino.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"name" : "mb.sensortile.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.static.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.static.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -900,6 +900,10 @@
 			}
 , 			{
 				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
 , 			{
