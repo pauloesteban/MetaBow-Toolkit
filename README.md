@@ -4,7 +4,7 @@
 - Max 8.1+
 - MUBU remote package
 - Bluetooth turned on
-- *Optional:* Antescofo (from IRCAM). Currently, a Work In Progress.
+- *Optional:* Antescofo (from IRCAM). Integration as Work In Progress.
 
 ## Installation
 1. Clone (or download) this repository

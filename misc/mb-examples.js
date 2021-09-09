@@ -31,6 +31,11 @@ var data = {
 		"name" : "Preset Interpolation Exploring 3",
 		"blurb" : "Likelihood values are used again to control the balance of several video streams.",
 		"patch" : "mb-example-preset-video"
+	},
+	"6" : {
+		"name" : "Simultaneous sensors",
+		"blurb" : "Work In Progress. Use sensor data from various sources.",
+		"patch" : "mb-example-simulataneous"
 	}
 }
 

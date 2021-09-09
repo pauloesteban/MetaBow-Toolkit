@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 87.0, 1322.0, 779.0 ],
+		"rect" : [ 85.0, 87.0, 1322.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1322.0, 753.0 ],
+						"rect" : [ 85.0, 113.0, 1322.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -100,13 +100,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 36,
+									"linecount" : 14,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 69.0, 491.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example, the 'likelihood' data for each pose is used to control the volume of different streams of signals, allowing you to dynamically control sound by interpolating different positions."
+									"patching_rect" : [ 465.0, 450.0, 71.0, 196.0 ],
+									"text" : "Using the continuous gesture recognition abstraction you can map the temporal aspects of a gesture to the generation or playback of sound"
 								}
 
 							}
@@ -688,15 +688,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 12,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 200.0, 208.0 ],
+									"patching_rect" : [ 240.0, 600.0, 200.0, 90.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 15.0, 277.0, 525.0, 90.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example , the 'likelihood' data for each pose is used to control the volume of different streams of signals , allowing you to dynamically control sound by interpolating different positions.",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 15.0, 277.0, 525.0, 40.0 ],
+									"text" : "Using the continuous gesture recognition abstraction you can map the temporal aspects of a gesture to the generation or playback of sound",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -719,14 +719,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 600.0, 123.0, 71.0 ],
+									"patching_rect" : [ 131.0, 600.0, 123.0, 93.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 225.0, 315.0, 28.0 ],
-									"text" : "Connecting State To Sound",
+									"text" : "Physical Gesture to Sound Gesture",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -751,7 +751,7 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Lato",
-									"fontsize" : 15.0,
+									"fontsize" : 14.0,
 									"id" : "obj-27",
 									"margin" : 0,
 									"maxclass" : "tab",
@@ -766,7 +766,7 @@
 									"presentation_rect" : [ 15.0, 135.0, 1005.0, 60.0 ],
 									"rounded" : 3.0,
 									"spacing_y" : 0.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3" ],
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Simultaneous Sensors" ],
 									"valign" : 0
 								}
 
@@ -1003,7 +1003,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 113.0, 1322.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1322.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1334,7 +1334,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 198.0, 107.0 ],
+									"patching_rect" : [ 450.0, 660.0, 199.0, 107.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 165.0, 377.0, 271.0, 74.0 ],
