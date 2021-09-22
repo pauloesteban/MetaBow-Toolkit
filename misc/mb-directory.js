@@ -26,6 +26,13 @@ var data = {
 		"patch" : "mb.processing",
 		"wywl" : "The processing abstractions perform more complex actions, where data is analysed both off-line and in real-time for gesture recognition and other purposes."
 
+    },
+    "4" : {
+        "name" : "Interactive Music Score",
+        "blurb" : "TBD.",
+		"patch" : "mb.score",
+		"wywl" : "TBD."
+
     }
 }
 

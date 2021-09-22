@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 87.0, 1322.0, 779.0 ],
+		"rect" : [ 84.0, 87.0, 922.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 85.0, 113.0, 1322.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 922.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 71.0, 196.0 ],
+									"patching_rect" : [ 465.0, 450.0, 73.0, 196.0 ],
 									"text" : "Using the continuous gesture recognition abstraction you can map the temporal aspects of a gesture to the generation or playback of sound"
 								}
 
@@ -1003,7 +1003,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1322.0, 753.0 ],
+						"rect" : [ 84.0, 113.0, 922.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1330,15 +1330,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 199.0, 107.0 ],
+									"patching_rect" : [ 450.0, 660.0, 199.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 165.0, 377.0, 271.0, 74.0 ],
-									"text" : "The processing abstractions perform more complex actions , where data is analysed both off-line and in real-time for gesture recognition and other purposes.",
+									"presentation_rect" : [ 165.0, 377.0, 271.0, 23.0 ],
+									"text" : "TBD.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1662,15 +1660,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 200.0, 124.0 ],
+									"patching_rect" : [ 240.0, 660.0, 200.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 165.0, 255.0, 271.0, 90.0 ],
-									"text" : "Processing is an umbrella term capturing a number of applications involving our sensor data. For example , this can include continuous and discrete gesture recognition or simple 1-to-1 mapping.",
+									"presentation_rect" : [ 165.0, 255.0, 271.0, 23.0 ],
+									"text" : "TBD.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1693,13 +1689,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
+									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
-									"text" : "Processing",
+									"text" : "Interactive Music Score",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1736,7 +1733,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 225.0, 135.0, 375.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing" ]
+									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "Interactive Score" ]
 								}
 
 							}
