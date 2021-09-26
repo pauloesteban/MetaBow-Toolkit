@@ -42,12 +42,243 @@
 		"title" : "MetaBow Toolkit - Processing",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 375.0, 555.0, 135.0, 51.0 ],
+					"text" : "if this is activated, pitch calibration will be based on Bb3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 282.0, 475.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 282.0, 503.5, 89.0, 22.0 ],
+					"text" : "calibrate $1 58"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"linecount" : 24,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 167.0, 382.0, 328.0 ],
+					"text" : "Once the input signal is good enough, we can calibrate antescofo~.\nTo do this, we send it the calibrate 1 message and we feed some audio signal into it. antescofo~ will start outputting calibration messages.\n\nThe first argument of a calibration message is the level calibration (shown here in the light blue flonum and multislider). We have to check it to stay high (> 0.75) when it receives musical events, and low (< 0.5) when it doesn't - for example because it is picking up hall noise. If the calibration level is not good, then the audio input level must be adjusted. In general, it is always better to perform the adjustments as close as possible to the beginning of the audio chain.\n\nThe second argument of a calibration message is the pitch calibration (shown here in the yellow flonum and slider). Correct tuning of antescofo~ and the instrument with respect to each other is also important. The instrument should play a reference A4: if the tuning is correct, the pitch calibration will approach 0.5. If not, either the instrument or antescofo~ should be tuned - for the latter, we will describe the \"tuning\" message in the next tutorial.\n\nIt is also possible to perform the pitch calibration with a different reference pitch: just specify the corresponding MIDI note as the second argument to the calibrate message you send to antescofo~."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 185.0, 235.0, 73.0, 22.0 ],
+					"text" : "calibrate $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 185.0, 205.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 0.60219, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 6,
+					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"id" : "obj-16",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 219.0, 353.0, 50.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 30.0, 326.0, 208.0, 22.0 ],
+					"text" : "unpack f f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Black",
+					"fontsize" : 10.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 439.0, 28.0, 21.0 ],
+					"text" : "0.5",
+					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 0.60219, 1.0 ],
+					"floatoutput" : 1,
+					"id" : "obj-20",
+					"knobcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 219.0, 381.0, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Black",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.0, 502.0, 28.0, 21.0 ],
+					"text" : "0.0",
+					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.60211, 1.0, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 6,
+					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 353.0, 50.0, 22.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.60219, 1.0, 1.0, 1.0 ],
+					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
+					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
+					"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
+					"candicane5" : [ 0.584314, 0.827451, 0.431373, 1.0 ],
+					"candicane6" : [ 0.733333, 0.035294, 0.788235, 1.0 ],
+					"candicane7" : [ 0.878431, 0.243137, 0.145098, 1.0 ],
+					"candicane8" : [ 0.027451, 0.447059, 0.501961, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 384.0, 189.0, 134.0 ],
+					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 3,
+					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Black",
+					"fontsize" : 10.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 239.0, 377.0, 28.0, 21.0 ],
+					"text" : "1.0",
+					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 30.0, 295.0, 96.0, 22.0 ],
+					"text" : "route calibration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "float", "symbol", "bang" ],
-					"patching_rect" : [ 570.0, 600.0, 68.0, 22.0 ],
+					"patching_rect" : [ 30.0, 263.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"IncomingOscPort" : 5678,
 						"Warning" : 1,
@@ -66,58 +297,39 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 435.0, 317.0, 100.0 ],
-					"text" : "Static gesture recognition is useful when you want to identify what \"state\" is currently being occupied. A \"state\" might refer to a position of the hand/bow/arm, or a more general type of motion and gesture. If you aren't concerned \"where\" in the gesture you are, it can sometimes be more accurate and robust than continuous gesture recognition."
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 30.0, 205.0, 136.0, 47.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "audio in",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Lato",
-					"fontsize" : 16.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 405.0, 285.0, 26.0 ],
-					"text" : "Static Gesture Recognition"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-9",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mb.static.maxpat",
+					"maxclass" : "ezadc~",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 405.0, 315.0, 255.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 165.0, 289.0, 114.0 ],
-					"text" : "Continuous Gesture Recognition is useful when you want to identify which gesture is being performed as well as 'where' in the gesture you currently are. Imagine drawing two different shapes. Your hand performs two unique gestures over time to do this. Continuous Gesture Recogntion is able to recognise not only which shape you are drawing, but where in the drawing of that shape you are."
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 30.0, 150.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -131,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 135.0, 285.0, 26.0 ],
-					"text" : "Continuous Gesture Recognition"
+					"text" : "Calibration"
 				}
 
 			}
@@ -152,32 +364,11 @@
 					"fontname" : "Lato",
 					"fontsize" : 13.0,
 					"id" : "obj-4",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 62.0, 630.0, 53.0 ],
-					"text" : "Once there is clean and workable sensor data we have the opportunity to analyse it. The MetaBow Processing family of abstractions is responsible for performing such tasks such as gesture recognition and gesture mapping with this data."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mb.continuous.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 315.0, 255.0 ],
-					"viewvisibility" : 1
+					"patching_rect" : [ 15.0, 62.0, 630.0, 22.0 ],
+					"text" : "TBD."
 				}
 
 			}
@@ -197,55 +388,96 @@
 
 			}
  ],
-		"lines" : [  ],
-		"parameters" : 		{
-			"obj-1::obj-17" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-1::obj-78" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-1::obj-79" : [ "live.text[3]", "live.text[2]", 0 ],
-			"obj-1::obj-8" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-91" : [ "live.tab", "live.tab", 0 ],
-			"obj-9::obj-17" : [ "live.text[6]", "live.text[1]", 0 ],
-			"obj-9::obj-78" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-9::obj-79" : [ "live.text[7]", "live.text[2]", 0 ],
-			"obj-9::obj-8" : [ "live.text[4]", "live.text", 0 ],
-			"obj-9::obj-91" : [ "live.tab[1]", "live.tab", 0 ],
-			"parameterbanks" : 			{
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
 
 			}
-,
-			"parameter_overrides" : 			{
-				"obj-1::obj-91" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "0", "1" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 9
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
-,
-				"obj-9::obj-17" : 				{
-					"parameter_longname" : "live.text[6]"
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
-,
-				"obj-9::obj-78" : 				{
-					"parameter_longname" : "live.text[5]"
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-15", 1 ]
 				}
-,
-				"obj-9::obj-79" : 				{
-					"parameter_longname" : "live.text[7]"
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
-,
-				"obj-9::obj-8" : 				{
-					"parameter_longname" : "live.text[4]"
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
-,
-				"obj-9::obj-91" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "live.tab[1]",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "0", "1" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 9
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 194.5, 258.0, 39.5, 258.0 ],
+					"source" : [ "obj-22", 0 ]
 				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 291.5, 534.0, 22.0, 534.0, 22.0, 257.0, 39.5, 257.0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+ ],
+		"parameters" : 		{
+			"obj-6" : [ "live.gain~", "audio in", 0 ],
+			"parameterbanks" : 			{
 
 			}
 ,
@@ -253,54 +485,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mb.continuous.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mb.continuous.js",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mb.static.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mb.static.js",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.hhmm.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.gmm.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "antescofo~.mxo",
 				"type" : "iLaX"
 			}
