@@ -42,7 +42,70 @@
 		"title" : "MetaBow Toolkit - Processing",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Lato",
+					"fontsize" : 16.0,
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 630.0, 285.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 360.0, 150.0, 285.0, 26.0 ],
+					"text" : "Tune Calibration"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 345.0, 660.0, 285.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 345.0, 660.0, 285.0, 74.0 ],
+					"text" : "For correct pitch detection, it is important that the instrument and antescofo~ are in tune with each other. The antescofo~ tuning, expressed in Hz relative to A4, can be controlled with the tune message (default: 440 Hz)."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 282.0, 660.0, 51.0, 22.0 ],
+					"text" : "tune $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 6,
+					"id" : "obj-33",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 282.0, 630.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-47",
@@ -50,7 +113,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 555.0, 135.0, 51.0 ],
+					"patching_rect" : [ 262.5, 540.0, 135.0, 66.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 262.5, 527.5, 135.0, 66.0 ],
 					"text" : "if this is activated, pitch calibration will be based on Bb3"
 				}
 
@@ -63,7 +129,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 282.0, 475.0, 20.0, 20.0 ]
+					"patching_rect" : [ 282.0, 475.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 282.0, 475.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -77,6 +145,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 503.5, 89.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 282.0, 503.5, 89.0, 22.0 ],
 					"text" : "calibrate $1 58"
 				}
 
@@ -90,8 +160,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 167.0, 382.0, 328.0 ],
-					"text" : "Once the input signal is good enough, we can calibrate antescofo~.\nTo do this, we send it the calibrate 1 message and we feed some audio signal into it. antescofo~ will start outputting calibration messages.\n\nThe first argument of a calibration message is the level calibration (shown here in the light blue flonum and multislider). We have to check it to stay high (> 0.75) when it receives musical events, and low (< 0.5) when it doesn't - for example because it is picking up hall noise. If the calibration level is not good, then the audio input level must be adjusted. In general, it is always better to perform the adjustments as close as possible to the beginning of the audio chain.\n\nThe second argument of a calibration message is the pitch calibration (shown here in the yellow flonum and slider). Correct tuning of antescofo~ and the instrument with respect to each other is also important. The instrument should play a reference A4: if the tuning is correct, the pitch calibration will approach 0.5. If not, either the instrument or antescofo~ should be tuned - for the latter, we will describe the \"tuning\" message in the next tutorial.\n\nIt is also possible to perform the pitch calibration with a different reference pitch: just specify the corresponding MIDI note as the second argument to the calibrate message you send to antescofo~."
+					"patching_rect" : [ 345.0, 167.0, 285.0, 328.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 24,
+					"presentation_rect" : [ 345.0, 167.0, 285.0, 328.0 ],
+					"text" : "The first argument of a calibration message is the level calibration (shown here in the light blue flonum and multislider). We have to check it to stay high (> 0.75) when it receives musical events, and low (< 0.5) when it doesn't - for example because it is picking up hall noise. If the calibration level is not good, then the audio input level must be adjusted. In general, it is always better to perform the adjustments as close as possible to the beginning of the audio chain.\n\nThe second argument of a calibration message is the pitch calibration (shown here in the yellow flonum and slider). Correct tuning of antescofo~ and the instrument with respect to each other is also important. The instrument should play a reference A4: if the tuning is correct, the pitch calibration will approach 0.5. If not, either the instrument or antescofo~ should be tuned.\n\nIt is also possible to perform the pitch calibration with a different reference pitch: just specify the corresponding MIDI note as the second argument to the calibrate message you send to antescofo~."
 				}
 
 			}
@@ -105,6 +178,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 185.0, 235.0, 73.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 185.0, 235.0, 73.0, 22.0 ],
 					"text" : "calibrate $1"
 				}
 
@@ -117,7 +192,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.0, 205.0, 20.0, 20.0 ]
+					"patching_rect" : [ 185.0, 205.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 185.0, 205.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -135,6 +212,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 219.0, 353.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 353.0, 50.0, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
@@ -163,6 +242,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 439.0, 28.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.0, 439.0, 28.0, 21.0 ],
 					"text" : "0.5",
 					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
 				}
@@ -179,7 +260,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 381.0, 20.0, 140.0 ],
+					"patching_rect" : [ 219.0, 384.0, 19.0, 134.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 384.0, 19.0, 134.0 ],
 					"size" : 1.0
 				}
 
@@ -192,7 +275,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 502.0, 28.0, 21.0 ],
+					"patching_rect" : [ 240.0, 497.0, 28.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 240.0, 502.0, 28.0, 21.0 ],
 					"text" : "0.0",
 					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
 				}
@@ -212,6 +297,8 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 353.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 353.0, 50.0, 22.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
 				}
@@ -235,6 +322,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 384.0, 189.0, 134.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 384.0, 189.0, 134.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -249,7 +338,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 377.0, 28.0, 21.0 ],
+					"patching_rect" : [ 240.0, 377.0, 28.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 239.0, 377.0, 28.0, 21.0 ],
 					"text" : "1.0",
 					"textcolor" : [ 1.0, 0.360784, 0.682353, 1.0 ]
 				}
@@ -279,6 +370,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "float", "symbol", "bang" ],
 					"patching_rect" : [ 30.0, 263.0, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 263.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"IncomingOscPort" : 5678,
 						"Warning" : 1,
@@ -305,6 +398,8 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.0, 205.0, 136.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 205.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -329,7 +424,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 30.0, 150.0, 45.0, 45.0 ]
+					"patching_rect" : [ 30.0, 150.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.0, 150.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -343,7 +440,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 135.0, 285.0, 26.0 ],
-					"text" : "Calibration"
+					"presentation" : 1,
+					"presentation_rect" : [ 345.0, 135.0, 285.0, 26.0 ],
+					"text" : "Level Calibration"
 				}
 
 			}
@@ -355,7 +454,9 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 120.0, 630.0, 10.0 ]
+					"patching_rect" : [ 15.0, 120.0, 630.0, 10.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 120.0, 630.0, 10.0 ]
 				}
 
 			}
@@ -368,6 +469,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 62.0, 630.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 15.0, 62.0, 630.0, 22.0 ],
 					"text" : "TBD."
 				}
 
@@ -435,6 +538,20 @@
 					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 194.5, 258.0, 39.5, 258.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
