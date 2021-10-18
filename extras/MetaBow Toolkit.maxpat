@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, 87.0, 922.0, 779.0 ],
+		"rect" : [ 78.0, 87.0, 1328.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 922.0, 753.0 ],
+						"rect" : [ 78.0, 113.0, 1328.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -100,13 +100,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 35,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 71.0, 478.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example, the 'likelihood' data for each pose is used to control the volume of different streams of signals, allowing you to dynamically control sound by interpolating different positions."
+									"patching_rect" : [ 465.0, 450.0, 77.0, 76.0 ],
+									"text" : "Gesture recognition and score following via Antescofo."
 								}
 
 							}
@@ -688,15 +688,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 12,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 200.0, 208.0 ],
+									"patching_rect" : [ 240.0, 600.0, 200.0, 40.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 15.0, 277.0, 525.0, 90.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example , the 'likelihood' data for each pose is used to control the volume of different streams of signals , allowing you to dynamically control sound by interpolating different positions.",
+									"presentation_rect" : [ 15.0, 277.0, 525.0, 23.0 ],
+									"text" : "Gesture recognition and score following via Antescofo.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -719,14 +718,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 600.0, 123.0, 71.0 ],
+									"patching_rect" : [ 131.0, 600.0, 123.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 225.0, 315.0, 28.0 ],
-									"text" : "Connecting State To Sound",
+									"text" : "Score Following",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -751,7 +750,7 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Lato",
-									"fontsize" : 15.0,
+									"fontsize" : 14.0,
 									"id" : "obj-27",
 									"margin" : 0,
 									"maxclass" : "tab",
@@ -766,7 +765,7 @@
 									"presentation_rect" : [ 15.0, 135.0, 1005.0, 60.0 ],
 									"rounded" : 3.0,
 									"spacing_y" : 0.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3" ],
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following" ],
 									"valign" : 0
 								}
 
@@ -1003,7 +1002,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 85.0, 113.0, 922.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 1328.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1055,7 +1054,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 465.0, 555.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 347.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 377.0, 335.0, 28.0 ],
 									"text" : "What will you learn?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1330,15 +1329,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 199.0, 107.0 ],
+									"patching_rect" : [ 450.0, 660.0, 199.0, 90.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 165.0, 377.0, 271.0, 74.0 ],
-									"text" : "The processing abstractions perform more complex actions , where data is analysed both off-line and in real-time for gesture recognition and other purposes.",
+									"presentation_rect" : [ 165.0, 420.0, 271.0, 74.0 ],
+									"text" : "You will be introduced to the high level structure of this package and cover how the MetaBow abstractions can be used together.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1662,15 +1661,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 200.0, 124.0 ],
+									"patching_rect" : [ 240.0, 660.0, 200.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 165.0, 255.0, 271.0, 90.0 ],
-									"text" : "Processing is an umbrella term capturing a number of applications involving our sensor data. For example , this can include continuous and discrete gesture recognition or simple 1-to-1 mapping.",
+									"presentation_rect" : [ 165.0, 255.0, 271.0, 23.0 ],
+									"text" : "How does this toolkit work?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1699,7 +1696,7 @@
 									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
-									"text" : "Processing",
+									"text" : "Framework",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1736,7 +1733,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 225.0, 135.0, 375.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing" ]
+									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "Calibration" ]
 								}
 
 							}

@@ -31,6 +31,11 @@ var data = {
 		"name" : "Preset Interpolation Exploring 3",
 		"blurb" : "Likelihood values are used again to control the balance of several video streams.",
 		"patch" : "mb-example-preset-video"
+	},
+	"6" : {
+		"name" : "Score Following",
+		"blurb" : "Gesture recognition and score following via Antescofo.",
+		"patch" : "mb-example-score-following"
 	}
 }
 

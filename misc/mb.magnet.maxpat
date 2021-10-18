@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 144.0, 1371.0, 721.0 ],
+		"rect" : [ 78.0, 87.0, 928.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -150,7 +150,7 @@
 					"patching_rect" : [ 15.0, 360.0, 135.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 53.25, 90.0, 111.75 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"setminmax" : [ -2048.0, 2048.0 ],
 					"size" : 3,
 					"slidercolor" : [ 0.952941176470588, 0.564705882352941, 0.098039215686275, 1.0 ]
 				}
@@ -266,19 +266,30 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
