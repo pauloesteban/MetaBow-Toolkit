@@ -33,9 +33,9 @@ var data = {
 		"patch" : "mb-example-preset-video"
 	},
 	"6" : {
-		"name" : "Simultaneous sensors",
-		"blurb" : "Work In Progress. Use sensor data from various sources.",
-		"patch" : "mb-example-simulataneous"
+		"name" : "Score Following",
+		"blurb" : "Gesture recognition and score following via Antescofo.",
+		"patch" : "mb-example-score-following"
 	}
 }
 
