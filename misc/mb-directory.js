@@ -28,10 +28,10 @@ var data = {
 
     },
     "4" : {
-        "name" : "Interactive Music Score",
-        "blurb" : "TBD.",
-		"patch" : "mb.score",
-		"wywl" : "TBD."
+        "name" : "Calibration",
+        "blurb" : "Sensors and audio levels will have different initial values due to different factors, e.g., location, hardware. Calibration is a necessary step for reproducibility of your work in different scenarios.",
+		"patch" : "mb.calibration",
+		"wywl" : "Calibrate the sensors, inputs and objects according to your set up."
 
     }
 }
