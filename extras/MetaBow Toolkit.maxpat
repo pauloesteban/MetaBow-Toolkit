@@ -1065,15 +1065,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-3",
-									"linecount" : 8,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 62.0, 589.0, 141.0 ],
+									"patching_rect" : [ 15.0, 62.0, 589.0, 124.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 8,
-									"presentation_rect" : [ 15.0, 62.0, 589.0, 141.0 ],
-									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Department of Music - Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense. Make sure you to not only look at the abstractions..."
+									"presentation_linecount" : 7,
+									"presentation_rect" : [ 15.0, 62.0, 589.0, 124.0 ],
+									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Department of Music - Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense."
 								}
 
 							}
