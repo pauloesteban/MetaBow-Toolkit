@@ -4,7 +4,7 @@
 - Max 8.1+
 - MUBU (Browse Remote Packages)
 - CNMAT Externals (Browse Remote Packages)
-- [Antescofo](https://forge.ircam.fr/p/antescofo/). Integration as Work In Progress.
+- [Antescofo](https://forge.ircam.fr/p/antescofo/downloads/573/)
 - Bluetooth turned on
 
 ## Installation
