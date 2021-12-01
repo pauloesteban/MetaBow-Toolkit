@@ -3,12 +3,15 @@
 	"type": "package",
 	"author": "James Bradbury, Paulo Chiliguano and  Roberto Trillo",
 	"description": "A set of utilities for gesture recognition and mapping with the MetaBow.",
-	"version": "0.2",
-	"major_version": "0",
-	"minor_version": "2",
+	"version": "0.2.1",
 	"min_max_version": "8.1",
-	"min_osx_version": "10.14",
-	"min_win_version": "10",
-	"website": "https://github.com/jamesb93/Bitalino-Toolbox",
+	"max_version_max": "none",
+	"os": {
+		"macintosh" : {
+			"platform": ["x64"],
+			"min_version" : "10.11"
+		}
+        },
+	"website": "https://github.com/pauloesteban/MetaBow-Toolkit/",
 	"relative_path": " "
 }
