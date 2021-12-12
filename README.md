@@ -22,7 +22,10 @@ If you are confident with `git`, you can checkout the code with the latest featu
 cd ~/Documents/Max\ 8/Packages/
 git clone --branch develop git@github.com:pauloesteban/MetaBow-Toolkit.git
 ```
-
+To get the updates, simply do:
+```
+git pull
+```
 ## Additional steps (macOS)
 **IMPORTANT:** due to Apple's code signing and notarization rules, you are unlikely to be able to use the external or bridge unless your remove their quarantine state via:
 
