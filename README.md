@@ -35,8 +35,8 @@ xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/Metabow-Toolkit/mis
 
 If you are able to get Antescofo package, you should do the same
 ```
-xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/Antescofo/externals/antescofo~.mxo
-xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/Antescofo/externals/Ascograph.app
+xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo
+xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-ntescofo/externals/Ascograph.app
 ```
 ### Bluetooth permission
 At very first opening of Extractors patch, a pop-up will ask you to allow Bluetooth for Max 8. Accept it.
