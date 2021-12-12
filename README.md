@@ -8,9 +8,17 @@
 - Bluetooth turned on
 
 ## Installation
-1. Download this repository
+1. Download the code as a ZIP file
 2. Move the `MetaBow-Toolkit` folder into your `Max 8/Packages/` folder
 3. Install via File / Show Package Manager
+
+### Cutting edge install
+If you are confident with `git`, you can checkout the code with the latest features. Using a Terminal app, type the following lines:
+```
+cd ~/Documents/Max\ 8/Packages/
+git clone --branch develop git@github.com:pauloesteban/MetaBow-Toolkit.git
+```
+Then you can install via Package Manager.
 
 ## Additional steps (macOS)
 **IMPORTANT:** due to Apple's code signing and notarization rules, you are unlikely to be able to use the external or bridge unless your remove their quarantine state via:
