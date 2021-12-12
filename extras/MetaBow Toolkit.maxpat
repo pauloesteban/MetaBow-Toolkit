@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 78.0, 87.0, 1328.0, 779.0 ],
+		"rect" : [ 81.0, 87.0, 928.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,213 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 2,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 81.0, 87.0, 753.0, 531.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Default Max 7",
+						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-9",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 337.0, 589.0, 141.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
+									"text" : "Open a Terminal app, and type the following line by line\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/Metabow-Toolkit/misc/metabow_bridge\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/Ascograph.app"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 300.0, 329.0, 64.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
+									"text" : "Remove quarantine state (macOS Catalina or newer)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 322.0, 589.0, 57.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 279.0, 589.0, 57.0 ],
+									"text" : "1. Download the latest available version from https://forge.ircam.fr/p/antescofo/\n2. Uncompress the downloaded file\n3. Move the folder to ~/Documents/Max 8/Packages"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 285.0, 329.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 242.0, 346.0, 35.0 ],
+									"text" : "Antescofo installation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-5",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 202.0, 589.0, 74.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 166.0, 589.0, 74.0 ],
+									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at left of the search box.\n3. Search for MuBu for Max, and install\n4. Repeat 1-3 for CNMAT Externals"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 165.0, 329.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 129.0, 346.0, 35.0 ],
+									"text" : "Remote packages installation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 102.0, 589.0, 40.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 15.0, 87.0, 589.0, 40.0 ],
+									"text" : "Metabow-Toolkit package has some third-party dependencies, hence, some additional steps are required to get the whole experience."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 62.0, 589.0, 23.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 62.0, 589.0, 23.0 ],
+									"text" : "Congratulations! If you are seeing this you have successfully installed Metabow-Toolkit."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 32.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
+									"text" : "Additional Steps"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 90.0, 15.0, 93.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Requirements"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -61,14 +268,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 78.0, 113.0, 1328.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -100,13 +307,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 5,
+									"linecount" : 27,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 77.0, 76.0 ],
-									"text" : "Gesture recognition and score following via Antescofo."
+									"patching_rect" : [ 465.0, 450.0, 77.0, 370.0 ],
+									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities."
 								}
 
 							}
@@ -174,8 +381,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -452,8 +659,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -688,14 +895,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 2,
+									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 200.0, 40.0 ],
+									"patching_rect" : [ 240.0, 600.0, 200.0, 191.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 277.0, 525.0, 23.0 ],
-									"text" : "Gesture recognition and score following via Antescofo.",
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 277.0, 525.0, 74.0 ],
+									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -718,14 +926,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 600.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 600.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 225.0, 315.0, 28.0 ],
-									"text" : "Score Following",
+									"text" : "Data Mapping",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -973,7 +1180,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 75.0, 17.0, 71.0, 22.0 ],
+					"patching_rect" : [ 210.0, 15.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -995,14 +1202,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1328.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1105,8 +1312,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1329,15 +1536,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 199.0, 90.0 ],
+									"patching_rect" : [ 450.0, 660.0, 199.0, 74.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 165.0, 420.0, 271.0, 74.0 ],
-									"text" : "You will be introduced to the high level structure of this package and cover how the MetaBow abstractions can be used together.",
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 165.0, 420.0, 271.0, 57.0 ],
+									"text" : "This section covers 'extractors' , a set of abstractions that are responsible for extracting data from the MetaBow sensor.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1425,8 +1632,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 11,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1661,13 +1868,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 200.0, 23.0 ],
+									"patching_rect" : [ 240.0, 660.0, 200.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 255.0, 271.0, 23.0 ],
-									"text" : "How does this toolkit work?",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 165.0, 255.0, 271.0, 40.0 ],
+									"text" : "Extractors bridge Max to various sensor technologies such as the MetaBow.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1696,7 +1905,7 @@
 									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
-									"text" : "Framework",
+									"text" : "Extractors",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1935,7 +2144,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 17.0, 51.0, 22.0 ],
+					"patching_rect" : [ 15.0, 15.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
