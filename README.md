@@ -8,6 +8,7 @@
 - Bluetooth turned on
 
 ## Installation
+### Recommended
 1. Download the code as a ZIP file
 2. Move the `MetaBow-Toolkit` folder into your `Max 8/Packages/` folder
 3. Install via File / Show Package Manager
