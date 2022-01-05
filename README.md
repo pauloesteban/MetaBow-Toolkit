@@ -43,6 +43,8 @@ xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/Metabow-Toolkit/mis
 If you are able to get Antescofo package, you should do the same
 ```
 xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo
+```
+```
 xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-ntescofo/externals/Ascograph.app
 ```
 
