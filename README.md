@@ -1,4 +1,7 @@
 # MetaBow Toolkit
+> **macOS compatibility**
+>
+> MetaBow Toolkit is not fully compatible with neither macOS Monterey nor Apple Silicon.
 
 ## System Requirements
 
