@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 81.0, 87.0, 928.0, 779.0 ],
+		"rect" : [ 254.0, 87.0, 928.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 81.0, 87.0, 753.0, 531.0 ],
+						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -86,7 +86,6 @@
 						"subpatcher_template" : "Default Max 7",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Lato",
@@ -96,7 +95,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 337.0, 589.0, 141.0 ],
+									"patching_rect" : [ 15.0, 451.0, 589.0, 141.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
@@ -113,7 +112,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 300.0, 329.0, 64.0 ],
+									"patching_rect" : [ 15.0, 385.0, 329.0, 64.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
 									"text" : "Remove quarantine state (macOS Catalina or newer)"
@@ -307,12 +306,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"linecount" : 27,
+									"linecount" : 24,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 77.0, 370.0 ],
+									"patching_rect" : [ 465.0, 450.0, 87.0, 330.0 ],
 									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities."
 								}
 
@@ -895,11 +894,11 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 11,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 200.0, 191.0 ],
+									"patching_rect" : [ 240.0, 600.0, 206.0, 174.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 15.0, 277.0, 525.0, 74.0 ],
@@ -1209,7 +1208,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
+						"rect" : [ 254.0, 113.0, 928.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1261,7 +1260,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 465.0, 555.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 377.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 317.0, 335.0, 28.0 ],
 									"text" : "What will you learn?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1272,15 +1271,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-3",
-									"linecount" : 7,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 62.0, 589.0, 124.0 ],
+									"patching_rect" : [ 15.0, 62.0, 589.0, 74.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 7,
-									"presentation_rect" : [ 15.0, 62.0, 589.0, 124.0 ],
-									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Department of Music - Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense."
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 62.0, 589.0, 74.0 ],
+									"text" : "The MetaBow Toolkit is a set of abstractions designed around the MetaBow™ that work as a MaxMSP package. How do you navigate this package? Work your way through each section, starting from the framework, through the extractors, sensor control, and processing tabs to explore the endless possibilities offered by the MetaBow’s Toolkit."
 								}
 
 							}
@@ -1295,7 +1294,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 136.25, 705.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 225.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 165.0, 335.0, 28.0 ],
 									"text" : "Hover over a tutorial for more information.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1540,10 +1539,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 199.0, 74.0 ],
+									"patching_rect" : [ 450.0, 660.0, 200.0, 74.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 165.0, 420.0, 271.0, 57.0 ],
+									"presentation_rect" : [ 165.0, 360.0, 271.0, 57.0 ],
 									"text" : "This section covers 'extractors' , a set of abstractions that are responsible for extracting data from the MetaBow sensor.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1872,10 +1871,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 200.0, 57.0 ],
+									"patching_rect" : [ 240.0, 660.0, 203.0, 57.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 165.0, 255.0, 271.0, 40.0 ],
+									"presentation_rect" : [ 165.0, 195.0, 271.0, 40.0 ],
 									"text" : "Extractors bridge Max to various sensor technologies such as the MetaBow.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1904,7 +1903,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
 									"text" : "Extractors",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1940,7 +1939,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 15.0, 195.0, 135.0, 195.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 135.0, 375.0 ],
+									"presentation_rect" : [ 15.0, 165.0, 135.0, 375.0 ],
 									"rounded" : 3.0,
 									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "Calibration" ]
 								}

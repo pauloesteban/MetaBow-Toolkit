@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1370.0, 749.0 ],
+		"rect" : [ 79.0, 116.0, 1370.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 435.0, 317.0, 100.0 ],
-					"text" : "Static gesture recognition is useful when you want to identify what \"state\" is currently being occupied. A \"state\" might refer to a position of the hand/bow/arm, or a more general type of motion and gesture. If you aren't concerned \"where\" in the gesture you are, it can sometimes be more accurate and robust than continuous gesture recognition."
+					"text" : "Static gesture recognition is useful when you want to identify what \"state\" is currently being occupied. A \"state\" might refer to a position of the hand/bow/arm, or a more general type of motion and gesture. If you aren't concerned about \"where\" in the gesture you are, it can sometimes be more accurate and robust than continuous gesture recognition."
 				}
 
 			}
@@ -75,6 +75,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-9",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.static.maxpat",
 					"numinlets" : 1,
@@ -94,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 345.0, 165.0, 289.0, 114.0 ],
-					"text" : "Continuous Gesture Recognition is useful when you want to identify which gesture is being performed as well as 'where' in the gesture you currently are. Imagine drawing two different shapes. Your hand performs two unique gestures over time to do this. Continuous Gesture Recogntion is able to recognise not only which shape you are drawing, but where in the drawing of that shape you are."
+					"text" : "Continuous Gesture Recognition is useful when you want to identify which gesture is being performed as well as 'where' in the gesture you currently are. Imagine drawing two different shapes. Your hand performs two unique gestures over time to do this. Continuous Gesture Recognition is able to recognise not only which shape you are drawing, but where in the drawing of that shape you are."
 				}
 
 			}
@@ -120,7 +121,14 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 120.0, 630.0, 10.0 ]
+					"patching_rect" : [ 15.0, 120.0, 630.0, 10.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -147,6 +155,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.continuous.maxpat",
 					"numinlets" : 1,
@@ -169,7 +178,7 @@
 					"patching_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
-					"text" : "MetaBow Processing"
+					"text" : "Processing"
 				}
 
 			}

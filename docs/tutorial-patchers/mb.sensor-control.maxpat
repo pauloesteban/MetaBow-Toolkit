@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 144.0, 1000.0, 721.0 ],
+		"rect" : [ 79.0, 144.0, 1000.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,14 +51,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 170.0, 1000.0, 695.0 ],
+						"rect" : [ 79.0, 170.0, 1000.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -110,7 +110,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 660.0, 375.0, 202.0, 26.0 ],
-									"text" : "Gyroscope Control"
+									"text" : "Gyroscope"
 								}
 
 							}
@@ -123,6 +123,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-15",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.gyro.maxpat",
 									"numinlets" : 1,
@@ -156,7 +157,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 375.0, 202.0, 26.0 ],
-									"text" : "Magnetometer Control"
+									"text" : "Magnetometer"
 								}
 
 							}
@@ -169,6 +170,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-11",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.magnet.maxpat",
 									"numinlets" : 1,
@@ -188,7 +190,14 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 155.0, 630.0, 14.0 ]
+									"patching_rect" : [ 15.0, 155.0, 630.0, 14.0 ],
+									"saved_attribute_attributes" : 									{
+										"linecolor" : 										{
+											"expression" : ""
+										}
+
+									}
+
 								}
 
 							}
@@ -200,7 +209,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 675.0, 208.0, 285.0, 114.0 ],
-									"text" : "Scaling is useful for taking an input number range and mapping it to an output number range. The abstraction can be programatically altered in real-time and features a learn mode where it maintains a memory of the minimum and maximum numbers it receives in the input stream till it is switched back to the play mode. This can be useful if you don't know the ranges to set beforehand."
+									"text" : "Scaling is useful for taking an input number range and mapping it to an output number range. The abstraction can be programmatically altered in real-time and features a learn mode where it maintains a memory of the minimum and maximum numbers it receives in the input stream till it is switched back to the play mode. This can be useful if you don't know the ranges to set in advance."
 								}
 
 							}
@@ -240,7 +249,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 180.0, 202.0, 26.0 ],
-									"text" : "Accelerometer Control"
+									"text" : "Accelerometer"
 								}
 
 							}
@@ -248,12 +257,12 @@
 								"box" : 								{
 									"fontname" : "Lato",
 									"id" : "obj-4",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 60.0, 384.0, 93.0 ],
-									"text" : "A significant portion of work in using sensors involves making the data that is received from the controller manageable. This may involve smoothing the data or scaling it from one numerical range to another. As such, 'sensor control' abstractions help you to manipulate data before you send it to other processes where it is analysed or directly mapped on to controls."
+									"patching_rect" : [ 15.0, 60.0, 384.0, 78.0 ],
+									"text" : "A priority when working with sensors is to make manageable the data received from the controller. This may involve smoothing the data or scaling it from one numerical range to another. As such, 'sensor control' abstractions help you to manipulate data before you send it to other processes where it is analysed or directly mapped on to controls."
 								}
 
 							}
@@ -266,6 +275,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-12",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.mapper.maxpat",
 									"numinlets" : 1,
@@ -286,6 +296,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -308,7 +319,7 @@
 									"patching_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 30.0, 30.0, 387.0, 45.0 ],
-									"text" : "MetaBow Sensor Control"
+									"text" : "Sensor Control"
 								}
 
 							}
@@ -403,49 +414,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mb.accel.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.mapper.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.mapper.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.magnet.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.gyro.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
