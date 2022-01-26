@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,14 +51,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 79.0, 87.0, 753.0, 531.0 ],
+						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,8 +87,21 @@
 						"subpatcher_template" : "Default Max 7",
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"autofit" : 1,
+									"forceaspect" : 1,
+									"id" : "obj-16",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 110.5, 171.0, 253.0, 189.810993249758923 ],
+									"pic" : "Logo_Antescofo_720x540.png"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Lato",
 									"fontsize" : 13.0,
@@ -96,7 +109,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 345.0, 682.0, 22.0 ],
+									"patching_rect" : [ 15.0, 555.0, 682.0, 22.0 ],
 									"text" : "If you dont want to install dependencies then the list above will tell you what will and won't function."
 								}
 
@@ -108,7 +121,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 402.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 402.0, 375.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -119,7 +132,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 194.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 194.0, 375.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -129,7 +142,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 15.0, 375.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -142,7 +155,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 195.0, 181.0, 38.0 ],
+									"patching_rect" : [ 210.0, 405.0, 181.0, 38.0 ],
 									"text" : "- mb.calibration\n- mb-example-score-following"
 								}
 
@@ -155,7 +168,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 195.0, 161.0, 22.0 ]
+									"patching_rect" : [ 30.0, 405.0, 161.0, 22.0 ]
 								}
 
 							}
@@ -168,7 +181,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 165.0, 162.0, 22.0 ],
+									"patching_rect" : [ 30.0, 375.0, 162.0, 22.0 ],
 									"text" : "No Dependencies",
 									"textjustification" : 1
 								}
@@ -183,7 +196,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 165.0, 161.0, 22.0 ],
+									"patching_rect" : [ 210.0, 375.0, 161.0, 22.0 ],
 									"text" : "Requries Antescofo",
 									"textjustification" : 1
 								}
@@ -194,12 +207,12 @@
 									"fontname" : "Lato",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 682.0, 38.0 ],
-									"text" : "Part of the MetaBow toolkit is built on top of the Antescofo package from IRCAM. You can install it using the link provided."
+									"patching_rect" : [ 15.0, 75.0, 685.0, 84.0 ],
+									"text" : "Part of the MetaBow toolkit is built on top of the Antescofo package from IRCAM. You can install it using the following link\n\nhttps://github.com/nadirB/atom-antescofo\nhttp://forumnet.ircam.fr/fr/produit/antescofo/"
 								}
 
 							}
@@ -213,9 +226,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 15.0, 420.0, 45.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 30.0, 387.0, 83.0 ],
-									"text" : "MetaBow Toolkit Framework"
+									"presentation_rect" : [ 30.0, 30.0, 387.0, 45.0 ],
+									"text" : "Antescofo"
 								}
 
 							}
@@ -245,8 +257,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -289,7 +301,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 345.0, 682.0, 22.0 ],
+									"patching_rect" : [ 15.0, 360.0, 682.0, 22.0 ],
 									"text" : "If you dont want to install dependencies then the list above will tell you what will and won't function."
 								}
 
@@ -301,7 +313,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 373.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 373.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -312,7 +324,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 194.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 194.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -322,7 +334,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 15.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -335,7 +347,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 195.0, 162.0, 53.0 ],
+									"patching_rect" : [ 210.0, 210.0, 162.0, 53.0 ],
 									"text" : "- mb.continuous\n- mb.static\n- mb.temporal"
 								}
 
@@ -349,7 +361,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 195.0, 161.0, 100.0 ],
+									"patching_rect" : [ 30.0, 210.0, 161.0, 100.0 ],
 									"text" : "- mb.accel\n- mb.fakedata\n- mb.gyro\n- mb.mapper\n- mb.recorder\n- mb.subsmoother"
 								}
 
@@ -363,7 +375,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 165.0, 162.0, 22.0 ],
+									"patching_rect" : [ 30.0, 180.0, 162.0, 22.0 ],
 									"text" : "No Dependencies",
 									"textjustification" : 1
 								}
@@ -378,8 +390,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 165.0, 161.0, 22.0 ],
-									"text" : "Requries MuBu",
+									"patching_rect" : [ 210.0, 180.0, 161.0, 22.0 ],
+									"text" : "Requires MuBu",
 									"textjustification" : 1
 								}
 
@@ -389,12 +401,12 @@
 									"fontname" : "Lato",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 682.0, 53.0 ],
-									"text" : "Part of the MetaBow toolkit is built on top of the MuBu package from IRCAM. You can install the latest version from the Max package manager or the link below. This is especially important for the components of the package that use gesture recognition."
+									"patching_rect" : [ 15.0, 75.0, 682.0, 84.0 ],
+									"text" : "Part of the MetaBow toolkit is built on top of the IRCAM's MuBu package. You can install the latest version from the Max package manager or the link below. This is particularly relevant for the components of the package that use gesture recognition.\n\nhttps://forum.ircam.fr/projects/detail/mubu/"
 								}
 
 							}
@@ -408,9 +420,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 15.0, 420.0, 45.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 30.0, 387.0, 83.0 ],
-									"text" : "MetaBow Toolkit Framework"
+									"presentation_rect" : [ 30.0, 30.0, 387.0, 45.0 ],
+									"text" : "MuBu"
 								}
 
 							}
@@ -440,14 +451,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
+						"rect" : [ 79.0, 142.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -622,6 +633,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -741,8 +753,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -925,7 +937,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 62.0, 615.0, 50.0 ],
-									"text" : "All abstractions can be configured programatically with messages. Each abstraction stores its state internally as a dictionary which can then be saved to be loaded later or extracted for whatever purpose you see fit. Messages make controlling the abstractions simple and clear. No remembering what inlet belongs to which control!"
+									"text" : "All abstractions can be configured programatically with messages. Each abstraction stores its state internally as a dictionary which can then be saved to be loaded later or extracted for whatever purpose you see fit. Messages make controlling the abstractions simple and clear. No need to remember what inlet belongs to which control!"
 								}
 
 							}
@@ -950,6 +962,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -1044,8 +1057,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1152,6 +1165,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -1173,7 +1187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 75.0, 682.0, 162.0 ],
-									"text" : "The MetaBow Toolkit Framework is designed to allow both beginners and advanced Max users to incorporate the Metabow into their creative projects. All of the utilities afforded to you by the toolkit are presented as abstractions that can be used as a 'bpatcher' (with a graphical user interface) or as a plain object. For those that prefer tacticle controls, and configuration by moving sliders, dials or panels the bpatcher interface is ideal. For an advanced user who is more comfortable with plain objects a GUI might be unnecessary. Nonetheless, the abstractions work in exactly the same way and it's up to you to decide the type of interface that you need to work comfortable with these tools.\n\nAs you can see below, the same abstraction for processing accelerometer data \"mb.accel\" is demonstrated in both formats. They both work exactly the same, except for the plain abstraction the GUI is hidden which might be a small performance gain too if you have many instances of these."
+									"text" : "The MetaBow Toolkit Framework is designed to allow both beginners and advanced Max users to incorporate the Metabow into their creative projects. All of the utilities afforded to you by the toolkit are presented as abstractions that can be used as a 'bpatcher' (with a graphical user interface) or as a plain object. For those that prefer tactile controls, and configuration by moving sliders, dials or panels the bpatcher interface is ideal. For an advanced user who is more comfortable with plain objects a GUI might be unnecessary. Nonetheless, the abstractions work in exactly the same way and it's up to you to decide the type of interface that you need to work comfortably with these tools.\n\nAs you can see below, the same abstraction for processing accelerometer data \"mb.accel\" is demonstrated in both formats. They both work exactly the same, except for the plain abstraction the GUI is hidden which might be a small performance gain too if you have many instances of these."
 								}
 
 							}
@@ -1298,6 +1312,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Logo_Antescofo_720x540.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
