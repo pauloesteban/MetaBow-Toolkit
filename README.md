@@ -61,7 +61,7 @@ The bridge executable allows the connection between a BLE sensor and the extract
 
 Unfortunately, `shell` is not compatible on Windows, hence, the bridge application needs to be downloaded and executed manually.
 
-Please download the Windows version of the bridge, [here](https://drive.google.com/file/d/1WiWFPObibg16qj1o7rOrTJNMYhWaYFEV/view?usp=sharing).
+Please download the Windows version of the bridge, [here](https://github.com/pauloesteban/sensor-tile-osc/releases).
 
 ## Credits
 
