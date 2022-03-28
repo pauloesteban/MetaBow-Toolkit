@@ -1,14 +1,15 @@
 # MetaBow Toolkit
 > **macOS compatibility**
 >
-> MetaBow Toolkit is not fully compatible with neither macOS Monterey nor Apple Silicon.
+> MetaBow Toolkit is not fully compatible on Apple Silicon.
+> If you are using macOS Monterey, upgrade to version 12.3 for Bluetooth compatibility.
 
 ## System Requirements
 
 - OS: macOS 10.15 (Catalina) or higher. Microsoft Windows 10 or higher.
-- Max 8.1+
-- MUBU (Browse in Max Remote Packages)
-- CNMAT Externals (Browse in Max Remote Packages)
+- [Max](https://cycling74.com/products/max) 8.1+
+- [MUBU](https://forum.ircam.fr/projects/detail/mubu/) Install via Remote Packages on Max
+- [CNMAT Externals](https://cnmat.berkeley.edu/downloads) Install via Remote Packages on Max
 - Antescofo: [macOS](https://forge.ircam.fr/p/antescofo/downloads/573/), [Windows](https://forge.ircam.fr/p/antescofo/downloads/495/)
 - Turn Bluetooth on
 
