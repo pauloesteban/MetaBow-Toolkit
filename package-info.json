@@ -3,7 +3,7 @@
 	"type": "package",
 	"author": "James Bradbury, Paulo Chiliguano and Roberto Trillo",
 	"description": "A set of utilities for gesture recognition and mapping with the MetaBow.",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"max_version_min": "8.1",
 	"max_version_max": "none",
 	"os": {
