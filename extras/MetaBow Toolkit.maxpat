@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 254.0, 87.0, 928.0, 779.0 ],
+		"rect" : [ 106.0, 87.0, 923.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -91,11 +91,11 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
-									"linecount" : 8,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 451.0, 589.0, 141.0 ],
+									"patching_rect" : [ 15.0, 451.0, 726.0, 90.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
@@ -268,13 +268,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 928.0, 753.0 ],
+						"rect" : [ 106.0, 113.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -305,25 +305,12 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"linecount" : 24,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 87.0, 330.0 ],
-									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities."
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 300.0, 41.0, 22.0 ],
+									"patching_rect" : [ 15.0, 195.0, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -342,18 +329,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.0, 225.0, 50.0, 22.0 ],
-									"text" : "-1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontface" : 2,
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
@@ -361,9 +336,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 136.25, 645.0, 334.0, 28.0 ],
+									"patching_rect" : [ 311.0, 705.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 15.0, 135.0, 335.0, 28.0 ],
 									"text" : "Hover over a tutorial for more information.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -381,13 +356,13 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 36.0, 79.0, 753.0, 531.0 ],
+										"rect" : [ 731.0, 195.0, 753.0, 531.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -659,13 +634,13 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 36.0, 79.0, 753.0, 531.0 ],
+										"rect" : [ 83.0, 87.0, 753.0, 531.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -894,15 +869,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 10,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 206.0, 174.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 124.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 15.0, 277.0, 525.0, 74.0 ],
-									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities.",
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 57.0 ],
+									"text" : "Raw accelerometer values can be mapped onto arbitrary presets. This opens up the possibility of using gesture to navgiate the unknown sounds between some stored known ones.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -925,13 +900,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 600.0, 123.0, 28.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 71.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 315.0, 28.0 ],
-									"text" : "Data Mapping",
+									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
+									"text" : "Preset Interpolation Exploring 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -956,23 +932,18 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Lato",
-									"fontsize" : 14.0,
+									"fontsize" : 16.0,
 									"id" : "obj-27",
-									"margin" : 0,
 									"maxclass" : "tab",
-									"mode" : 1,
-									"multiline" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 135.0, 135.0, 195.0 ],
+									"patching_rect" : [ 570.0, 150.0, 255.0, 292.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 135.0, 1005.0, 60.0 ],
+									"presentation_rect" : [ 15.0, 180.0, 570.0, 120.0 ],
 									"rounded" : 3.0,
-									"spacing_y" : 0.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following" ],
-									"valign" : 0
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices" ]
 								}
 
 							}
@@ -1048,7 +1019,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 219.5, 588.0, 249.5, 588.0 ],
+									"midpoints" : [ 219.5, 588.0, 417.5, 588.0 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -1070,7 +1041,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
-									"order" : 1,
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -1086,14 +1056,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 1,
-									"source" : [ "obj-57", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
 									"order" : 2,
 									"source" : [ "obj-57", 1 ]
 								}
@@ -1101,9 +1063,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"order" : 0,
-									"source" : [ "obj-57", 0 ]
+									"destination" : [ "obj-60", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 1 ]
 								}
 
 							}
@@ -1126,7 +1088,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 255.0, 450.0, 294.0, 450.0, 294.0, 504.0, 249.5, 504.0 ],
+									"midpoints" : [ 255.0, 450.0, 294.0, 450.0, 294.0, 504.0, 417.5, 504.0 ],
 									"order" : 0,
 									"source" : [ "obj-60", 0 ]
 								}
@@ -1156,7 +1118,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"order" : 1,
 									"source" : [ "obj-84", 2 ]
 								}
 
@@ -1165,14 +1126,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-71", 1 ],
 									"source" : [ "obj-84", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 1 ],
-									"order" : 0,
-									"source" : [ "obj-84", 2 ]
 								}
 
 							}
@@ -1202,13 +1155,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 254.0, 113.0, 928.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1312,7 +1265,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1632,7 +1585,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
