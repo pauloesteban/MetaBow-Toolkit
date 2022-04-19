@@ -1,4 +1,5 @@
 # MetaBow Toolkit
+
 > **macOS compatibility**
 >
 > MetaBow Toolkit is not fully compatible on Apple Silicon.
@@ -33,11 +34,14 @@ Download the correspondent OS compressed file. As similar as you did for the `Me
 ### Cutting edge installation (for advanced users)
 
 If you are confident with `git`, you can checkout the code with the latest features. Using a Terminal app, type the following lines:
+
 ```
 cd ~/Documents/Max\ 8/Packages/
 git clone --branch develop git@github.com:pauloesteban/MetaBow-Toolkit.git
 ```
+
 To get the updates, simply do:
+
 ```
 git pull
 ```
@@ -61,13 +65,18 @@ xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-antescofo/ext
 
 At very first opening of Extractors patch, a pop-up will ask you to allow Bluetooth for Max 8. Accept it.
 
-### Bridge executable (Windows only)
+### Bridge console application
 
-The bridge executable allows the connection between a BLE sensor and the extractor patcher of the toolkit. On macOS, the bridge is executed in the background via `shell` object.
+The bridge executable allows the connection between a BLE sensor and the extractor patcher of the toolkit.
+#### Notes on macOS
+
+On macOS, the bridge is executed in the background via `shell` object.
+
+#### Notes on Windows
 
 Unfortunately, `shell` is not compatible on Windows, hence, the bridge application needs to be downloaded and executed manually.
 
-Please download the Windows version of the bridge, [here](https://github.com/pauloesteban/sensor-tile-osc/releases).
+Please download the latest Windows version of the bridge, [here](https://github.com/pauloesteban/sensor-tile-osc/releases).
 
 ## Credits
 
