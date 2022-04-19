@@ -71,6 +71,6 @@ Please download the Windows version of the bridge, [here](https://github.com/pau
 
 ## Credits
 
-Based on the work by Paulo Chiliguano and James Bradbury.
+Based on the work by James Bradbury and Paulo Chiliguano.
 
 Directed by Roberto Alonso Trillo, HKBU Department of Music.
