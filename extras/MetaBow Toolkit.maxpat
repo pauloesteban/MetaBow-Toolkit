@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 87.0, 923.0, 779.0 ],
+		"rect" : [ 263.0, 87.0, 923.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -267,14 +267,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 106.0, 113.0, 923.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -355,8 +355,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -633,8 +633,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -869,15 +869,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 7,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.0, 600.0, 206.0, 124.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 40.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 15.0, 345.0, 525.0, 57.0 ],
-									"text" : "Raw accelerometer values can be mapped onto arbitrary presets. This opens up the possibility of using gesture to navgiate the unknown sounds between some stored known ones.",
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 23.0 ],
+									"text" : "Collect and manipulate date from different sources.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -900,14 +899,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 619.0, 123.0, 71.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
-									"text" : "Preset Interpolation Exploring 1",
+									"text" : "Simultaneous devices",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1154,14 +1153,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"rect" : [ 263.0, 113.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1264,8 +1263,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1488,15 +1487,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 200.0, 74.0 ],
+									"patching_rect" : [ 450.0, 660.0, 200.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 165.0, 360.0, 271.0, 57.0 ],
-									"text" : "This section covers 'extractors' , a set of abstractions that are responsible for extracting data from the MetaBow sensor.",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
+									"text" : "Handle audio and video signals along with sensor and/or gesture data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1584,8 +1583,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1820,15 +1819,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 203.0, 57.0 ],
+									"patching_rect" : [ 240.0, 660.0, 203.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 165.0, 195.0, 271.0, 40.0 ],
-									"text" : "Extractors bridge Max to various sensor technologies such as the MetaBow.",
+									"presentation_rect" : [ 165.0, 195.0, 271.0, 23.0 ],
+									"text" : "Record audio and video signals",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1851,13 +1848,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
+									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
-									"text" : "Extractors",
+									"text" : "A/V Recording",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1894,7 +1892,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 165.0, 135.0, 375.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "Calibration" ]
+									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "A/V Recording", "Calibration" ]
 								}
 
 							}
