@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -101,8 +101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -136,6 +136,7 @@
 						"style" : "",
 						"subpatcher_template" : "Default Max 7",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-71",
@@ -157,7 +158,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 121.0, 65.0, 35.0 ],
+									"patching_rect" : [ 13.0, 211.0, 65.0, 35.0 ],
 									"text" : "prepend timestamp"
 								}
 
@@ -183,7 +184,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 166.0, 88.0, 35.0 ],
+									"patching_rect" : [ 104.0, 211.0, 88.0, 35.0 ],
 									"text" : "prepend accelerometer"
 								}
 
@@ -311,7 +312,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-92", 0 ],
-									"midpoints" : [ 22.5, 144.0, 22.5, 144.0 ],
 									"source" : [ "obj-69", 0 ]
 								}
 
@@ -466,9 +466,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"activebgoncolor" : [ 0.96078431372549, 0.827450980392157, 0.156862745098039, 1.0 ],
-					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"bgoncolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "live.tab",
@@ -482,6 +480,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 120.0, 135.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "stop", "start" ],
 							"parameter_longname" : "live.tab[6]",
@@ -697,6 +703,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 46.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.text[1]",
