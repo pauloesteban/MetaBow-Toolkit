@@ -569,10 +569,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1471.75, 646.0, 423.0, 33.0 ],
+					"patching_rect" : [ 1471.75, 646.0, 427.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 364.75, 191.5, 423.0, 33.0 ],
+					"presentation_rect" : [ 364.75, 191.5, 427.0, 33.0 ],
 					"style" : "helpfile_label",
 					"text" : "Open opens the grab component / close closes it. You must explicitly open the grab component in order to use it."
 				}
@@ -843,7 +843,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1222.5, 851.0, 393.0, 22.0 ],
-					"text" : "write Desktop:/Metabow_Video/20220703_031023.mov 30. h264"
+					"text" : "write Desktop:/Metabow_Video/20220705_102601.mov 30. h264"
 				}
 
 			}
@@ -989,7 +989,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 573.5, 755.0, 378.0, 22.0 ],
-					"text" : "open wave Desktop:/Metabow_Audio/20220703_031023.wav"
+					"text" : "open wave Desktop:/Metabow_Audio/20220705_102601.wav"
 				}
 
 			}
