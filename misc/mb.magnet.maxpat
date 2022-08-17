@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 78.0, 87.0, 928.0, 779.0 ],
+		"rect" : [ 79.0, 87.0, 928.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,6 +122,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.subsmoother.maxpat",
 					"numinlets" : 1,
@@ -149,8 +150,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 360.0, 135.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 53.25, 90.0, 111.75 ],
-					"setminmax" : [ -2048.0, 2048.0 ],
+					"presentation_rect" : [ 15.0, 53.25, 90.0, 112.0 ],
+					"setminmax" : [ -2000.0, 2000.0 ],
 					"size" : 3,
 					"slidercolor" : [ 0.952941176470588, 0.564705882352941, 0.098039215686275, 1.0 ]
 				}
@@ -281,17 +282,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mb.subsmoother.js",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.subsmoother.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

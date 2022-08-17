@@ -1491,7 +1491,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 200.0, 57.0 ],
+									"patching_rect" : [ 450.0, 660.0, 205.0, 57.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
