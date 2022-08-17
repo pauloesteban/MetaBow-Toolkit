@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 81.0, 87.0, 826.0, 669.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -745,7 +745,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1256.25, 959.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1256.25, 959.0, 24.0, 24.0 ],
+					"varname" : "toggle"
 				}
 
 			}
@@ -843,7 +844,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1222.5, 851.0, 393.0, 22.0 ],
-					"text" : "write Desktop:/Metabow_Video/20220705_102601.mov 30. h264"
+					"text" : "write Desktop:/Metabow_Video/20220817_082908.mov 30. h264"
 				}
 
 			}
@@ -989,7 +990,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 573.5, 755.0, 378.0, 22.0 ],
-					"text" : "open wave Desktop:/Metabow_Audio/20220705_102601.wav"
+					"text" : "open wave Desktop:/Metabow_Audio/20220817_082908.wav"
 				}
 
 			}
@@ -1740,6 +1741,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 599.5, 78.0, 599.5, 78.0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
