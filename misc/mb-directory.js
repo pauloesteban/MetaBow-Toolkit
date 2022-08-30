@@ -26,7 +26,21 @@ var data = {
 		"patch" : "mb.processing",
 		"wywl" : "The processing abstractions perform more complex actions, where data is analysed both off-line and in real-time for gesture recognition and other purposes."
 
-    }
+    },
+	"4" : {
+        "name" : "A/V Recording",
+        "blurb" : "Record audio and video signals",
+		"patch" : "mb.avrecording",
+		"wywl" : "Handle audio and video signals along with sensor and/or gesture data."
+
+    },
+    "5" : {
+        "name" : "Calibration",
+        "blurb" : "Sensors and audio levels will have different initial values due to different factors, e.g., location, hardware. Calibration is a necessary step for reproducibility of your work in different scenarios.",
+		"patch" : "mb.calibration",
+		"wywl" : "Calibrate the sensors, inputs and objects according to your set up."
+
+    },
 }
 
 function msg_int(v) {

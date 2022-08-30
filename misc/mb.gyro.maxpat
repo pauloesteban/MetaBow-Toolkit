@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 144.0, 1371.0, 721.0 ],
+		"rect" : [ 79.0, 87.0, 928.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -122,6 +122,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.subsmoother.maxpat",
 					"numinlets" : 1,
@@ -149,8 +150,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 360.0, 135.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 53.25, 90.0, 111.75 ],
-					"setminmax" : [ 0.0, 1.0 ],
+					"presentation_rect" : [ 15.0, 53.25, 90.0, 112.0 ],
+					"setminmax" : [ -3276.800048828125, 3276.800048828125 ],
 					"size" : 3,
 					"slidercolor" : [ 0.952941176470588, 0.564705882352941, 0.098039215686275, 1.0 ]
 				}
@@ -160,7 +161,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -228,7 +229,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-3::obj-15" : [ "live.dial[2]", "Smoothing", 0 ],
+			"obj-3::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "mb.subsmoother.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.subsmoother.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

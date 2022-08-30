@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 88.0, 1370.0, 777.0 ],
+		"rect" : [ 191.0, 87.0, 922.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -73,6 +73,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-11",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.bitalino.maxpat",
 					"numinlets" : 1,
@@ -93,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 195.0, 207.0, 74.0 ],
-					"text" : "This abstraction is designed to work with the MetaBow directly. It allows you to control the sampling rate or to switch the output of the sensor data on and off."
+					"text" : "An abstraction designed to work directly with the Metabow. It allows you to control the sampling rate or to switch the output of the sensor data on and off."
 				}
 
 			}
@@ -120,8 +121,9 @@
 					"enablevscroll" : 0,
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mb.bitalino.maxpat",
+					"name" : "mb.sensortile.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -166,8 +168,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 60.0, 391.0, 93.0 ],
-					"text" : "To assist you in receiving data from the MetaBow, there is an 'extractor' abstraction. This aids you in connecting to the device and observing any changes to the integirty of the connection in real-time. While this toolkit is designed to be used with the MetaBow hardware, other extractors are offered to integrate different hardware with the other abstractions such as for the r-IoT Bitalino."
+					"patching_rect" : [ 15.0, 60.0, 394.0, 93.0 ],
+					"text" : "To assist you in receiving data from the MetaBow, we have introduced an 'extractor' abstraction. This aids you in connecting to the device and observing any changes to the integrity of the connection in real-time. While this toolkit is designed to be used with the MetaBoard, other extractors (e.g. Bitalino's r-IoT, Kimura's Mugic) are offered for you to integrate different interfaces."
 				}
 
 			}
@@ -180,6 +182,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "mb.bitalino.maxpat",
 					"numinlets" : 1,
@@ -203,7 +206,7 @@
 					"patching_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
-					"text" : "MetaBow Extractors"
+					"text" : "Extractors"
 				}
 
 			}
@@ -285,6 +288,17 @@
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.sensortile.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

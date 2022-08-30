@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 88.0, 1239.0, 927.0 ],
+		"rect" : [ 263.0, 87.0, 923.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,212 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Default Max 7",
+						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-9",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 451.0, 726.0, 90.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
+									"text" : "Open a Terminal app, and type the following line by line\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/Metabow-Toolkit/misc/metabow_bridge\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/Ascograph.app"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 385.0, 329.0, 64.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
+									"text" : "Remove quarantine state (macOS Catalina or newer)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 322.0, 589.0, 57.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 279.0, 589.0, 57.0 ],
+									"text" : "1. Download the latest available version from https://forge.ircam.fr/p/antescofo/\n2. Uncompress the downloaded file\n3. Move the folder to ~/Documents/Max 8/Packages"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 285.0, 329.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 242.0, 346.0, 35.0 ],
+									"text" : "Antescofo installation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-5",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 202.0, 589.0, 74.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 166.0, 589.0, 74.0 ],
+									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at left of the search box.\n3. Search for MuBu for Max, and install\n4. Repeat 1-3 for CNMAT Externals"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 24.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 165.0, 329.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 129.0, 346.0, 35.0 ],
+									"text" : "Remote packages installation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 102.0, 589.0, 40.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 15.0, 87.0, 589.0, 40.0 ],
+									"text" : "Metabow-Toolkit package has some third-party dependencies, hence, some additional steps are required to get the whole experience."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 14.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 62.0, 589.0, 23.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 62.0, 589.0, 23.0 ],
+									"text" : "Congratulations! If you are seeing this you have successfully installed Metabow-Toolkit."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 32.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 15.0, 387.0, 45.0 ],
+									"text" : "Additional Steps"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 90.0, 15.0, 93.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Requirements"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -61,14 +267,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1239.0, 901.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -99,25 +305,12 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"linecount" : 38,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 450.0, 66.0, 518.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example, the 'likelihood' data for each pose is used to control the volume of different streams of signals, allowing you to dynamically control sound by interpolating different positions."
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 300.0, 41.0, 22.0 ],
+									"patching_rect" : [ 15.0, 195.0, 41.0, 22.0 ],
 									"text" : "set $1"
 								}
 
@@ -136,18 +329,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.0, 225.0, 50.0, 22.0 ],
-									"text" : "-1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontface" : 2,
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
@@ -155,9 +336,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 136.25, 645.0, 334.0, 28.0 ],
+									"patching_rect" : [ 311.0, 705.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 15.0, 135.0, 335.0, 28.0 ],
 									"text" : "Hover over a tutorial for more information.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -174,14 +355,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 36.0, 79.0, 753.0, 531.0 ],
+										"rect" : [ 731.0, 195.0, 753.0, 531.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -452,14 +633,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 36.0, 79.0, 753.0, 531.0 ],
+										"rect" : [ 83.0, 87.0, 753.0, 531.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -688,15 +869,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 12,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 600.0, 200.0, 208.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 40.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 15.0, 277.0, 525.0, 90.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example , the 'likelihood' data for each pose is used to control the volume of different streams of signals , allowing you to dynamically control sound by interpolating different positions.",
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 23.0 ],
+									"text" : "Collect and manipulate date from different sources.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -719,14 +899,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 600.0, 123.0, 71.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 50.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 315.0, 28.0 ],
-									"text" : "Connecting State To Sound",
+									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
+									"text" : "Simultaneous devices",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -751,23 +931,18 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Lato",
-									"fontsize" : 15.0,
+									"fontsize" : 16.0,
 									"id" : "obj-27",
-									"margin" : 0,
 									"maxclass" : "tab",
-									"mode" : 1,
-									"multiline" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 135.0, 135.0, 195.0 ],
+									"patching_rect" : [ 570.0, 150.0, 255.0, 292.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 135.0, 1005.0, 60.0 ],
+									"presentation_rect" : [ 15.0, 180.0, 570.0, 120.0 ],
 									"rounded" : 3.0,
-									"spacing_y" : 0.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3" ],
-									"valign" : 0
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices" ]
 								}
 
 							}
@@ -843,7 +1018,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 219.5, 588.0, 249.5, 588.0 ],
+									"midpoints" : [ 219.5, 588.0, 417.5, 588.0 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -865,7 +1040,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
-									"order" : 1,
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -881,14 +1055,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 1,
-									"source" : [ "obj-57", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
 									"order" : 2,
 									"source" : [ "obj-57", 1 ]
 								}
@@ -896,9 +1062,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"order" : 0,
-									"source" : [ "obj-57", 0 ]
+									"destination" : [ "obj-60", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 1 ]
 								}
 
 							}
@@ -921,7 +1087,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 255.0, 450.0, 294.0, 450.0, 294.0, 504.0, 249.5, 504.0 ],
+									"midpoints" : [ 255.0, 450.0, 294.0, 450.0, 294.0, 504.0, 417.5, 504.0 ],
 									"order" : 0,
 									"source" : [ "obj-60", 0 ]
 								}
@@ -951,7 +1117,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"order" : 1,
 									"source" : [ "obj-84", 2 ]
 								}
 
@@ -963,18 +1128,10 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 1 ],
-									"order" : 0,
-									"source" : [ "obj-84", 2 ]
-								}
-
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 75.0, 17.0, 71.0, 22.0 ],
+					"patching_rect" : [ 210.0, 15.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -996,14 +1153,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 114.0, 1239.0, 901.0 ],
+						"rect" : [ 263.0, 113.0, 923.0, 753.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1055,7 +1212,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 465.0, 555.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 347.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 317.0, 335.0, 28.0 ],
 									"text" : "What will you learn?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
@@ -1066,15 +1223,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-3",
-									"linecount" : 8,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 62.0, 589.0, 141.0 ],
+									"patching_rect" : [ 15.0, 62.0, 589.0, 74.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 8,
-									"presentation_rect" : [ 15.0, 62.0, 589.0, 141.0 ],
-									"text" : "The MetaBow Toolkit is a set of abstractions designed around the \"MetaBow\" a hardware violin bow sensor developed at Hong Kong Baptist University.\n\nHow do you navigate through this package?\n\nWork your way through each section, beginning with framework, extractors, sensor control and then processing to see the various abstractions in an order that makes sense. Make sure you to not only look at the abstractions but "
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 62.0, 589.0, 74.0 ],
+									"text" : "The MetaBow Toolkit is a set of abstractions designed around the MetaBow™ that work as a MaxMSP package. How do you navigate this package? Work your way through each section, starting from the framework, through the extractors, sensor control, and processing tabs to explore the endless possibilities offered by the MetaBow’s Toolkit."
 								}
 
 							}
@@ -1089,7 +1246,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 136.25, 705.0, 334.0, 28.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 225.0, 335.0, 28.0 ],
+									"presentation_rect" : [ 165.0, 165.0, 335.0, 28.0 ],
 									"text" : "Hover over a tutorial for more information.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1106,8 +1263,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1330,15 +1487,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 198.0, 90.0 ],
+									"patching_rect" : [ 450.0, 660.0, 205.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 165.0, 377.0, 271.0, 74.0 ],
-									"text" : "This section explores abstractions responsible for the treatment and sanitisation of sensor data including smoothing techniques.",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
+									"text" : "Handle audio and video signals along with sensor and/or gesture data.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1426,8 +1583,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 8,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1662,15 +1819,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 200.0, 124.0 ],
+									"patching_rect" : [ 240.0, 660.0, 203.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 165.0, 255.0, 271.0, 90.0 ],
-									"text" : "The sensor data we receive is sometimes unruly and requires sanitisation , scaling or treatment in other ways. This section covers a range of abstractions for dealing with these issues.",
+									"presentation_rect" : [ 165.0, 195.0, 271.0, 23.0 ],
+									"text" : "Record audio and video signals",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1699,8 +1854,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 225.0, 210.0, 28.0 ],
-									"text" : "Sensor Control",
+									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
+									"text" : "A/V Recording",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1735,9 +1890,9 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 15.0, 195.0, 135.0, 195.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 135.0, 375.0 ],
+									"presentation_rect" : [ 15.0, 165.0, 135.0, 375.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing" ]
+									"tabs" : [ "Framework", "Extractors", "Sensor Control", "Processing", "A/V Recording", "Calibration" ]
 								}
 
 							}
@@ -1939,7 +2094,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 17.0, 51.0, 22.0 ],
+					"patching_rect" : [ 15.0, 15.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1955,14 +2110,14 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "mb-directory.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb-examples.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "TEXT",
 				"implicit" : 1

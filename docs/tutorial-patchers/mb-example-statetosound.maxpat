@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 88.0, 1370.0, 777.0 ],
+		"rect" : [ 421.0, 267.0, 1370.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 90.0, 142.0, 58.0, 22.0 ],
+					"patching_rect" : [ 105.0, 142.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 180.0, 126.0, 22.0 ],
+					"patching_rect" : [ 105.0, 180.0, 126.0, 22.0 ],
 					"text" : "smoothing 11, mode 1"
 				}
 
@@ -444,7 +444,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -756,7 +756,7 @@
 						"formantcorrection" : 0,
 						"mode" : "basic",
 						"originallength" : [ 2888.163265306124686, "ticks" ],
-						"originaltempo" : 120.000000000000099,
+						"originaltempo" : 120.000000000000085,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -781,7 +781,7 @@
 						"formantcorrection" : 0,
 						"mode" : "basic",
 						"originallength" : [ 8501.463945578230778, "ticks" ],
-						"originaltempo" : 120.0,
+						"originaltempo" : 119.999999999999986,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -842,8 +842,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 142.0, 67.0, 22.0 ],
-					"text" : "mb.bitalino",
+					"patching_rect" : [ 15.0, 142.0, 80.0, 22.0 ],
+					"text" : "mb.sensortile",
 					"varname" : "mb.bitalino"
 				}
 
@@ -958,7 +958,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"midpoints" : [ 99.5, 219.0, 24.5, 219.0 ],
+					"midpoints" : [ 114.5, 219.0, 24.5, 219.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1170,7 +1170,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.bitalino.maxpat",
+				"name" : "mb.sensortile.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
@@ -1192,6 +1192,10 @@
 			}
 , 			{
 				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
 , 			{

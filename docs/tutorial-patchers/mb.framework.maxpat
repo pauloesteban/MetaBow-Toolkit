@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1266.0, 749.0 ],
+		"rect" : [ 79.0, 116.0, 866.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,6 +43,212 @@
 		"title" : "MetaBow Toolkit - Framework",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 2,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "Default Max 7",
+						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"autofit" : 1,
+									"forceaspect" : 1,
+									"id" : "obj-16",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 110.5, 171.0, 253.0, 189.810993249758923 ],
+									"pic" : "Logo_Antescofo_720x540.png"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 555.0, 682.0, 22.0 ],
+									"text" : "If you dont want to install dependencies then the list above will tell you what will and won't function."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"justification" : 2,
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 402.0, 375.0, 5.0, 165.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"justification" : 1,
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 194.0, 375.0, 5.0, 165.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "live.line",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 375.0, 5.0, 165.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 210.0, 405.0, 181.0, 38.0 ],
+									"text" : "- mb.calibration\n- mb-example-score-following"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 405.0, 161.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 30.0, 375.0, 162.0, 22.0 ],
+									"text" : "No Dependencies",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 210.0, 375.0, 161.0, 22.0 ],
+									"text" : "Requries Antescofo",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 13.0,
+									"id" : "obj-8",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 685.0, 84.0 ],
+									"text" : "Part of the MetaBow toolkit is built on top of the Antescofo package from IRCAM. You can install it using the following link\n\nhttps://github.com/nadirB/atom-antescofo\nhttp://forumnet.ircam.fr/fr/produit/antescofo/"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 32.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 15.0, 420.0, 45.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 30.0, 30.0, 387.0, 45.0 ],
+									"text" : "Antescofo"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 165.0, 15.0, 71.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Antescofo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -51,14 +257,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1266.0, 723.0 ],
+						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -95,7 +301,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 345.0, 682.0, 22.0 ],
+									"patching_rect" : [ 15.0, 360.0, 682.0, 22.0 ],
 									"text" : "If you dont want to install dependencies then the list above will tell you what will and won't function."
 								}
 
@@ -107,7 +313,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 373.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 373.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -118,7 +324,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 194.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 194.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -128,7 +334,7 @@
 									"maxclass" : "live.line",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 165.0, 5.0, 165.0 ]
+									"patching_rect" : [ 15.0, 180.0, 5.0, 165.0 ]
 								}
 
 							}
@@ -141,7 +347,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 195.0, 162.0, 53.0 ],
+									"patching_rect" : [ 210.0, 210.0, 162.0, 53.0 ],
 									"text" : "- mb.continuous\n- mb.static\n- mb.temporal"
 								}
 
@@ -155,7 +361,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 195.0, 161.0, 100.0 ],
+									"patching_rect" : [ 30.0, 210.0, 161.0, 100.0 ],
 									"text" : "- mb.accel\n- mb.fakedata\n- mb.gyro\n- mb.mapper\n- mb.recorder\n- mb.subsmoother"
 								}
 
@@ -169,7 +375,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 165.0, 162.0, 22.0 ],
+									"patching_rect" : [ 30.0, 180.0, 162.0, 22.0 ],
 									"text" : "No Dependencies",
 									"textjustification" : 1
 								}
@@ -184,8 +390,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 165.0, 161.0, 22.0 ],
-									"text" : "Requries MuBu",
+									"patching_rect" : [ 210.0, 180.0, 161.0, 22.0 ],
+									"text" : "Requires MuBu",
 									"textjustification" : 1
 								}
 
@@ -195,12 +401,12 @@
 									"fontname" : "Lato",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 75.0, 682.0, 53.0 ],
-									"text" : "Part of the MetaBow toolkit is built on top of the MuBu package from IRCAM. You can install the latest version from the Max package manager or the link below. This is especially important for the components of the package that use gesture recognition."
+									"patching_rect" : [ 15.0, 75.0, 682.0, 84.0 ],
+									"text" : "Part of the MetaBow toolkit is built on top of the IRCAM's MuBu package. You can install the latest version from the Max package manager or the link below. This is particularly relevant for the components of the package that use gesture recognition.\n\nhttps://forum.ircam.fr/projects/detail/mubu/"
 								}
 
 							}
@@ -214,9 +420,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 15.0, 420.0, 45.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 30.0, 30.0, 387.0, 83.0 ],
-									"text" : "MetaBow Toolkit Framework"
+									"presentation_rect" : [ 30.0, 30.0, 387.0, 45.0 ],
+									"text" : "MuBu"
 								}
 
 							}
@@ -246,14 +451,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1266.0, 723.0 ],
+						"rect" : [ 79.0, 142.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -365,8 +570,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 285.0, 79.0, 22.0 ],
-									"text" : "prepend data"
+									"patching_rect" : [ 30.0, 285.0, 132.0, 22.0 ],
+									"text" : "prepend accelerometer"
 								}
 
 							}
@@ -378,7 +583,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 559.0, 285.0, 22.0 ],
-									"text" : "data 0.05 0.06 0.62"
+									"text" : "data 0.62 0.3 0.41"
 								}
 
 							}
@@ -428,6 +633,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -525,7 +731,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 255.0, 15.0, 79.0, 22.0 ],
+					"patching_rect" : [ 345.0, 15.0, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -547,14 +753,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1266.0, 723.0 ],
+						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -731,7 +937,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 62.0, 615.0, 50.0 ],
-									"text" : "All abstractions can be configured programatically with messages. Each abstraction stores its state internally as a dictionary which can then be saved to be loaded later or extracted for whatever purpose you see fit. Messages make controlling the abstractions simple and clear. No remembering what inlet belongs to which control!"
+									"text" : "All abstractions can be configured programatically with messages. Each abstraction stores its state internally as a dictionary which can then be saved to be loaded later or extracted for whatever purpose you see fit. Messages make controlling the abstractions simple and clear. No need to remember what inlet belongs to which control!"
 								}
 
 							}
@@ -756,6 +962,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-3",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -828,7 +1035,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 165.0, 15.0, 73.0, 22.0 ],
+					"patching_rect" : [ 255.0, 15.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -850,14 +1057,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 142.0, 1266.0, 723.0 ],
+						"rect" : [ 0.0, 26.0, 866.0, 723.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -958,6 +1165,7 @@
 									"enablevscroll" : 0,
 									"id" : "obj-1",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
 									"name" : "mb.accel.maxpat",
 									"numinlets" : 1,
@@ -979,7 +1187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 75.0, 682.0, 162.0 ],
-									"text" : "The MetaBow Toolkit Framework is designed to allow both beginners and advanced Max users to incorporate the Metabow into their creative projects. All of the utilities afforded to you by the toolkit are presented as abstractions that can be used as a 'bpatcher' (with a graphical user interface) or as a plain object. For those that prefer tacticle controls, and configuration by moving sliders, dials or panels the bpatcher interface is ideal. For an advanced user who is more comfortable with plain objects a GUI might be unnecessary. Nonetheless, the abstractions work in exactly the same way and it's up to you to decide the type of interface that you need to work comfortable with these tools.\n\nAs you can see below, the same abstraction for processing accelerometer data \"mb.accel\" is demonstrated in both formats. They both work exactly the same, except for the plain abstraction the GUI is hidden which might be a small performance gain too if you have many instances of these."
+									"text" : "The MetaBow Toolkit Framework is designed to allow both beginners and advanced Max users to incorporate the Metabow into their creative projects. All of the utilities afforded to you by the toolkit are presented as abstractions that can be used as a 'bpatcher' (with a graphical user interface) or as a plain object. For those that prefer tactile controls, and configuration by moving sliders, dials or panels the bpatcher interface is ideal. For an advanced user who is more comfortable with plain objects a GUI might be unnecessary. Nonetheless, the abstractions work in exactly the same way and it's up to you to decide the type of interface that you need to work comfortably with these tools.\n\nAs you can see below, the same abstraction for processing accelerometer data \"mb.accel\" is demonstrated in both formats. They both work exactly the same, except for the plain abstraction the GUI is hidden which might be a small performance gain too if you have many instances of these."
 								}
 
 							}
@@ -1057,6 +1265,14 @@
 					"parameter_longname" : "live.tab[3]"
 				}
 ,
+				"obj-2::obj-9::obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-2::obj-9::obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[2]"
+				}
+,
 				"obj-3::obj-3::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.dial[2]"
 				}
@@ -1072,30 +1288,37 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mb.accel.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.subsmoother.js",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mb.fakedata.maxpat",
-				"bootpath" : "~/Cloud/Consulting/GestureRecognition/MetaBow Toolkit/misc",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Logo_Antescofo_720x540.png",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{

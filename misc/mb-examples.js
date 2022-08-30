@@ -31,7 +31,17 @@ var data = {
 		"name" : "Preset Interpolation Exploring 3",
 		"blurb" : "Likelihood values are used again to control the balance of several video streams.",
 		"patch" : "mb-example-preset-video"
-	}
+	},
+	"6" : {
+		"name" : "Score Following",
+		"blurb" : "Gesture recognition and score following via Antescofo.",
+		"patch" : "mb-example-score-following"
+	},
+	"7" : {
+		"name" : "Simultaneous devices",
+		"blurb" : "Collect and manipulate date from different sources.",
+		"patch" : "mb-example-multiple-sensors"
+	},
 }
 
 function msg_int(v) {
