@@ -68,11 +68,6 @@ sudo xattr -r -d com.apple.quarantine ~/Documents/Max\ 8/Packages/ircam-antescof
 ## Bridge application
 
 The bridge executable allows the connection between a BLE sensor and the extractor patcher. You can download the bridge from [this repository](https://github.com/pauloesteban/sensor-tile-osc).
-## Additional notes
-
-On macOS, the bridge is executed in the background via `shell` object.
-
-Unfortunately, `shell` is not compatible on Windows, hence, the bridge application needs to be downloaded and executed manually.
 
 ## Credits
 
