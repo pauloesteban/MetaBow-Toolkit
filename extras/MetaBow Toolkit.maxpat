@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 263.0, 87.0, 923.0, 779.0 ],
+		"rect" : [ 139.0, 87.0, 923.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -91,15 +91,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 451.0, 726.0, 90.0 ],
+									"patching_rect" : [ 15.0, 422.0, 726.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
-									"text" : "Open a Terminal app, and type the following line by line\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/Metabow-Toolkit/misc/metabow_bridge\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/Ascograph.app"
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 397.0, 722.0, 57.0 ],
+									"text" : "For macOS Catalina or newer, open the Terminal app and type the following\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals"
 								}
 
 							}
@@ -108,14 +108,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 24.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 385.0, 329.0, 64.0 ],
+									"patching_rect" : [ 15.0, 385.0, 329.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
-									"text" : "Remove quarantine state (macOS Catalina or newer)"
+									"text" : "Remove quarantine state"
 								}
 
 							}
@@ -267,14 +266,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -355,8 +354,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -633,8 +632,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1153,14 +1152,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 263.0, 113.0, 923.0, 753.0 ],
+						"rect" : [ 139.0, 113.0, 923.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1263,8 +1262,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1495,7 +1494,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
-									"text" : "Handle audio and video signals along with sensor and/or gesture data.",
+									"text" : "Calibrate the sensors , inputs and objects according to your set up.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1583,8 +1582,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1819,13 +1818,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 203.0, 23.0 ],
+									"patching_rect" : [ 240.0, 660.0, 203.0, 124.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 165.0, 195.0, 271.0, 23.0 ],
-									"text" : "Record audio and video signals",
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 165.0, 195.0, 271.0, 107.0 ],
+									"text" : "Sensors and audio levels will have different initial values due to different factors , e.g. , location , hardware. Calibration is a necessary step for reproducibility of your work in different scenarios.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1848,14 +1849,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
-									"text" : "A/V Recording",
+									"text" : "Calibration",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
