@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
+						"rect" : [ 139.0, 113.0, 923.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -91,15 +91,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 422.0, 726.0, 57.0 ],
+									"patching_rect" : [ 15.0, 440.0, 726.0, 90.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 15.0, 397.0, 722.0, 57.0 ],
-									"text" : "For macOS Catalina or newer, open the Terminal app and type the following\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals"
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
+									"text" : "On macOS Catalina or newer, open the Terminal app and execute the following:\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/MetaBow-Toolkit/externals\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/spat5/externals"
 								}
 
 							}
@@ -111,7 +111,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 385.0, 329.0, 35.0 ],
+									"patching_rect" : [ 15.0, 403.0, 329.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
 									"text" : "Remove quarantine state"
@@ -131,7 +131,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 15.0, 279.0, 589.0, 57.0 ],
-									"text" : "1. Download the latest available version from https://forge.ircam.fr/p/antescofo/\n2. Uncompress the downloaded file\n3. Move the folder to ~/Documents/Max 8/Packages"
+									"text" : "1. Download the latest Antescofo package from https://forge.ircam.fr/p/antescofo/\n2. Download the latest spat5 package from https://forum.ircam.fr/projects/detail/spat/\n3. Uncompress to ~/Documents/Max 8/Packages"
 								}
 
 							}
@@ -143,10 +143,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 285.0, 329.0, 35.0 ],
+									"patching_rect" : [ 15.0, 285.0, 350.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 242.0, 346.0, 35.0 ],
-									"text" : "Antescofo installation"
+									"text" : "Antescofo and spat installation"
 								}
 
 							}
@@ -155,15 +155,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-5",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 202.0, 589.0, 74.0 ],
+									"patching_rect" : [ 15.0, 202.0, 589.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 15.0, 166.0, 589.0, 74.0 ],
-									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at left of the search box.\n3. Search for MuBu for Max, and install\n4. Repeat 1-3 for CNMAT Externals"
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 166.0, 589.0, 57.0 ],
+									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at the left of the search box.\n3. Search for the packages and install: MuBu for Max and CNMAT Externals"
 								}
 
 							}
@@ -868,14 +868,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 2,
+									"linecount" : 12,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.0, 600.0, 206.0, 40.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 208.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 345.0, 525.0, 23.0 ],
-									"text" : "Collect and manipulate date from different sources.",
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 90.0 ],
+									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example , the 'likelihood' data for each pose is used to control the volume of different streams of signals , allowing you to dynamically control sound by interpolating different positions.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -898,14 +899,14 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 619.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 71.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
-									"text" : "Simultaneous devices",
+									"text" : "Connecting State To Sound",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1159,7 +1160,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 139.0, 113.0, 923.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1486,15 +1487,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 205.0, 57.0 ],
+									"patching_rect" : [ 450.0, 660.0, 205.0, 90.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
-									"text" : "Calibrate the sensors , inputs and objects according to your set up.",
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 165.0, 360.0, 271.0, 74.0 ],
+									"text" : "You will be introduced to the high level structure of this package and cover how the MetaBow abstractions can be used together.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1818,15 +1819,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 660.0, 203.0, 124.0 ],
+									"patching_rect" : [ 240.0, 660.0, 203.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 6,
-									"presentation_rect" : [ 165.0, 195.0, 271.0, 107.0 ],
-									"text" : "Sensors and audio levels will have different initial values due to different factors , e.g. , location , hardware. Calibration is a necessary step for reproducibility of your work in different scenarios.",
+									"presentation_rect" : [ 165.0, 195.0, 271.0, 23.0 ],
+									"text" : "How does this toolkit work?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1855,7 +1854,7 @@
 									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
-									"text" : "Calibration",
+									"text" : "Framework",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
