@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 87.0, 923.0, 706.0 ],
+		"rect" : [ 139.0, 87.0, 712.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 139.0, 113.0, 923.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -273,7 +273,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
+						"rect" : [ 139.0, 113.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -868,15 +868,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 12,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.0, 600.0, 206.0, 208.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 174.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 15.0, 345.0, 525.0, 90.0 ],
-									"text" : "Static gesture recognition allows you recognise when different learned 'poses' are happening as well as the balance of all of the trained poses. In this example , the 'likelihood' data for each pose is used to control the volume of different streams of signals , allowing you to dynamically control sound by interpolating different positions.",
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 74.0 ],
+									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -899,14 +899,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 619.0, 123.0, 71.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
-									"text" : "Connecting State To Sound",
+									"text" : "Spatialization",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -942,7 +941,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 180.0, 570.0, 120.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices" ]
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices", "Spatialization", "" ]
 								}
 
 							}
@@ -1160,7 +1159,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
