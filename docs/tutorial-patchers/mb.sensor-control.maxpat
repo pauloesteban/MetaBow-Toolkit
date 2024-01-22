@@ -95,69 +95,6 @@
 									"clickthrough" : 0,
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
-									"id" : "obj-24",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "mb.ma-roll.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 465.0, 975.0, 195.0, 195.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-23",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "mb.ma-tilt.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 975.0, 195.0, 195.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-22",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "mb.ma-skewness.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 975.0, 195.0, 195.0 ],
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
 									"id" : "obj-21",
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
@@ -507,12 +444,6 @@
 			"obj-1::obj-20::obj-3::obj-3" : [ "live.tab[9]", "live.tab", 0 ],
 			"obj-1::obj-21::obj-3::obj-15" : [ "live.dial[6]", "Smoothing", 0 ],
 			"obj-1::obj-21::obj-3::obj-3" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-1::obj-22::obj-3::obj-15" : [ "live.dial[7]", "Smoothing", 0 ],
-			"obj-1::obj-22::obj-3::obj-3" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-1::obj-23::obj-3::obj-15" : [ "live.dial[8]", "Smoothing", 0 ],
-			"obj-1::obj-23::obj-3::obj-3" : [ "live.tab[11]", "live.tab", 0 ],
-			"obj-1::obj-24::obj-3::obj-15" : [ "live.dial[9]", "Smoothing", 0 ],
-			"obj-1::obj-24::obj-3::obj-3" : [ "live.tab[12]", "live.tab", 0 ],
 			"obj-1::obj-3::obj-3::obj-15" : [ "live.dial", "Smoothing", 0 ],
 			"obj-1::obj-3::obj-3::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
 			"parameterbanks" : 			{
@@ -592,30 +523,6 @@
 					"parameter_longname" : "live.tab[6]"
 				}
 ,
-				"obj-1::obj-22::obj-3::obj-15" : 				{
-					"parameter_longname" : "live.dial[7]"
-				}
-,
-				"obj-1::obj-22::obj-3::obj-3" : 				{
-					"parameter_longname" : "live.tab[10]"
-				}
-,
-				"obj-1::obj-23::obj-3::obj-15" : 				{
-					"parameter_longname" : "live.dial[8]"
-				}
-,
-				"obj-1::obj-23::obj-3::obj-3" : 				{
-					"parameter_longname" : "live.tab[11]"
-				}
-,
-				"obj-1::obj-24::obj-3::obj-15" : 				{
-					"parameter_longname" : "live.dial[9]"
-				}
-,
-				"obj-1::obj-24::obj-3::obj-3" : 				{
-					"parameter_longname" : "live.tab[12]"
-				}
-,
 				"obj-1::obj-3::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.dial"
 				}
@@ -644,13 +551,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.ma-roll.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mb.ma-sensorderivative.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
@@ -666,20 +566,6 @@
 			}
 , 			{
 				"name" : "mb.ma-sensorvelocity.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mb.ma-skewness.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
-				"patcherrelativepath" : "../../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mb.ma-tilt.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",

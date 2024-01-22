@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 539.0, 87.0, 928.0, 779.0 ],
+		"rect" : [ 478.0, 87.0, 528.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,6 @@
 					"patching_rect" : [ 15.0, 360.0, 135.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 68.0, 90.0, 112.0 ],
-					"setminmax" : [ -3276.800048828125, 3276.800048828125 ],
 					"size" : 3,
 					"slidercolor" : [ 0.952941176470588, 0.564705882352941, 0.098039215686275, 1.0 ]
 				}
