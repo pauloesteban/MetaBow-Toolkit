@@ -42,6 +42,16 @@ var data = {
 		"blurb" : "Collect and manipulate date from different sources.",
 		"patch" : "mb-example-multiple-sensors"
 	},
+	"8" : {
+		"name" : "Spatialization",
+		"blurb" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities.",
+		"patch" : "mb-example-spat"
+	},
+	"9" : {
+		"name" : "TBD",
+		"blurb" : "TBD",
+		"patch" : ""
+	}
 }
 
 function msg_int(v) {

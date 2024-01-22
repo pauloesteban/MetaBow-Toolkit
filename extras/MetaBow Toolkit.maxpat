@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 263.0, 87.0, 923.0, 779.0 ],
+		"rect" : [ 139.0, 87.0, 712.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -95,11 +95,11 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 451.0, 726.0, 90.0 ],
+									"patching_rect" : [ 15.0, 440.0, 726.0, 90.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 15.0, 397.0, 722.0, 90.0 ],
-									"text" : "Open a Terminal app, and type the following line by line\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/Metabow-Toolkit/misc/metabow_bridge\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/antescofo~.mxo\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals/Ascograph.app"
+									"text" : "On macOS Catalina or newer, open the Terminal app and execute the following:\n\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/MetaBow-Toolkit/externals\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/ircam-antescofo/externals\nxattr -r -d com.apple.quarantine ~/Documents/Max\\ 8/Packages/spat5/externals"
 								}
 
 							}
@@ -108,14 +108,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 24.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 385.0, 329.0, 64.0 ],
+									"patching_rect" : [ 15.0, 403.0, 329.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 360.0, 589.0, 35.0 ],
-									"text" : "Remove quarantine state (macOS Catalina or newer)"
+									"text" : "Remove quarantine state"
 								}
 
 							}
@@ -132,7 +131,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 15.0, 279.0, 589.0, 57.0 ],
-									"text" : "1. Download the latest available version from https://forge.ircam.fr/p/antescofo/\n2. Uncompress the downloaded file\n3. Move the folder to ~/Documents/Max 8/Packages"
+									"text" : "1. Download the latest Antescofo package from https://forge.ircam.fr/p/antescofo/\n2. Download the latest spat5 package from https://forum.ircam.fr/projects/detail/spat/\n3. Uncompress to ~/Documents/Max 8/Packages"
 								}
 
 							}
@@ -144,10 +143,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 285.0, 329.0, 35.0 ],
+									"patching_rect" : [ 15.0, 285.0, 350.0, 35.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 242.0, 346.0, 35.0 ],
-									"text" : "Antescofo installation"
+									"text" : "Antescofo and spat installation"
 								}
 
 							}
@@ -156,15 +155,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-5",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 202.0, 589.0, 74.0 ],
+									"patching_rect" : [ 15.0, 202.0, 589.0, 57.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 15.0, 166.0, 589.0, 74.0 ],
-									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at left of the search box.\n3. Search for MuBu for Max, and install\n4. Repeat 1-3 for CNMAT Externals"
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 15.0, 166.0, 589.0, 57.0 ],
+									"text" : "1. Open the Package Manager via File/Show Package Manager.\n2. Select Remote Packages, at the left of the search box.\n3. Search for the packages and install: MuBu for Max and CNMAT Externals"
 								}
 
 							}
@@ -267,14 +266,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 923.0, 753.0 ],
+						"rect" : [ 139.0, 113.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -355,8 +354,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -633,8 +632,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -869,14 +868,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-40",
-									"linecount" : 2,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.0, 600.0, 206.0, 40.0 ],
+									"patching_rect" : [ 408.0, 600.0, 206.0, 174.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 345.0, 525.0, 23.0 ],
-									"text" : "Collect and manipulate date from different sources.",
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 15.0, 345.0, 525.0, 74.0 ],
+									"text" : "Powerful results can come from mapping raw data to sound manipulation without any machine learning or complex recognition required. This is sometimes a more manual way of doing things but can be a simple way of exploring how physical gestures can be mapped onto sonic possibilities.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -899,14 +899,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 619.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 619.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 135.0, 315.0, 28.0 ],
-									"text" : "Simultaneous devices",
+									"text" : "Spatialization",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -942,7 +941,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 180.0, 570.0, 120.0 ],
 									"rounded" : 3.0,
-									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices" ]
+									"tabs" : [ "Data Mapping", "State to Sound", "Physical Gesture to Sound Gesture", "Preset Interpolation 1", "Preset Interpolation 2", "Preset Interpolation 3", "Score Following", "Simultaneous Devices", "Spatialization", "" ]
 								}
 
 							}
@@ -1153,14 +1152,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 1,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 263.0, 113.0, 923.0, 753.0 ],
+						"rect" : [ 0.0, 26.0, 712.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1263,8 +1262,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1487,15 +1486,15 @@
 									"fontname" : "Lato",
 									"fontsize" : 14.0,
 									"id" : "obj-87",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 660.0, 205.0, 57.0 ],
+									"patching_rect" : [ 450.0, 660.0, 205.0, 90.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 165.0, 360.0, 271.0, 40.0 ],
-									"text" : "Handle audio and video signals along with sensor and/or gesture data.",
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 165.0, 360.0, 271.0, 74.0 ],
+									"text" : "You will be introduced to the high level structure of this package and cover how the MetaBow abstractions can be used together.",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1583,8 +1582,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 1,
+											"minor" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1825,7 +1824,7 @@
 									"patching_rect" : [ 240.0, 660.0, 203.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 195.0, 271.0, 23.0 ],
-									"text" : "Record audio and video signals",
+									"text" : "How does this toolkit work?",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 
@@ -1848,14 +1847,13 @@
 									"fontname" : "Lato",
 									"fontsize" : 18.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 131.0, 660.0, 123.0, 50.0 ],
+									"patching_rect" : [ 131.0, 660.0, 123.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 165.0, 165.0, 210.0, 28.0 ],
-									"text" : "A/V Recording",
+									"text" : "Framework",
 									"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
 								}
 

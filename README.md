@@ -14,7 +14,7 @@ Connection from sensor to the toolkit is not possible due to Bluetooth issues on
 
 ## Pre requisites
 
-- [Max](https://cycling74.com/products/max) >= 8.1
+- [Max](https://cycling74.com/products/max) >= 8.2.2
 - [MUBU](https://forum.ircam.fr/projects/detail/mubu/). Install via Remote Packages in Max.
 - [CNMAT Externals](https://cnmat.berkeley.edu/downloads). Install via Remote Packages in Max.
 - Antescofo: [macOS (Intel)](https://forge.ircam.fr/p/antescofo/downloads/573/), [Windows](https://forge.ircam.fr/p/antescofo/downloads/495/)
@@ -33,20 +33,6 @@ Connection from sensor to the toolkit is not possible due to Bluetooth issues on
 
 Download the correspondent OS compressed file. As similar as you did for the `MetaBow-Toolkit` package, do steps 2 and 3 from above.
 
-### Cutting edge installation (for advanced users)
-
-If you are confident with `git`, you can checkout the code with the latest features. Using a Terminal app, type the following lines:
-
-```
-cd ~/Documents/Max\ 8/Packages/
-git clone --branch develop git@github.com:pauloesteban/MetaBow-Toolkit.git
-```
-
-To get the updates, simply do:
-
-```
-git pull
-```
 ### Additional steps (macOS only)
 
 **IMPORTANT:** Due to Apple's code signing and notarization rules, you are unlikely to be able to use the `shell` external unless your remove their quarantine state.

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 79.0, 144.0, 1000.0, 721.0 ],
+		"rect" : [ 34.0, 142.0, 1000.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,14 +51,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 79.0, 170.0, 1000.0, 695.0 ],
+						"rect" : [ 34.0, 168.0, 1000.0, 695.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -89,6 +89,90 @@
 						"assistshowspatchername" : 0,
 						"title" : "Sensor Control",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 1,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-21",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "mb.ma-sensorvelocity.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 465.0, 765.0, 195.0, 195.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 1,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-20",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "mb.ma-sensorderivative.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 240.0, 765.0, 195.0, 195.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 1,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-18",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "mb.ma-sensorframe.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 765.0, 195.0, 195.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgmode" : 0,
+									"border" : 1,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-17",
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "mb.quaternion.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 15.0, 570.0, 195.0, 180.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-13",
 									"linecount" : 2,
@@ -352,6 +436,14 @@
 			"obj-1::obj-12::obj-9" : [ "live.numbox[7]", "live.numbox", 0 ],
 			"obj-1::obj-15::obj-3::obj-15" : [ "live.dial[2]", "Smoothing", 0 ],
 			"obj-1::obj-15::obj-3::obj-3" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-1::obj-17::obj-3::obj-15" : [ "live.dial[3]", "Smoothing", 0 ],
+			"obj-1::obj-17::obj-3::obj-3" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-1::obj-18::obj-3::obj-15" : [ "live.dial[4]", "Smoothing", 0 ],
+			"obj-1::obj-18::obj-3::obj-3" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-1::obj-20::obj-3::obj-15" : [ "live.dial[5]", "Smoothing", 0 ],
+			"obj-1::obj-20::obj-3::obj-3" : [ "live.tab[9]", "live.tab", 0 ],
+			"obj-1::obj-21::obj-3::obj-15" : [ "live.dial[6]", "Smoothing", 0 ],
+			"obj-1::obj-21::obj-3::obj-3" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-1::obj-3::obj-3::obj-15" : [ "live.dial", "Smoothing", 0 ],
 			"obj-1::obj-3::obj-3::obj-3" : [ "live.tab[2]", "live.tab", 0 ],
 			"parameterbanks" : 			{
@@ -399,6 +491,38 @@
 					"parameter_longname" : "live.tab[4]"
 				}
 ,
+				"obj-1::obj-17::obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-1::obj-17::obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[8]"
+				}
+,
+				"obj-1::obj-18::obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
+,
+				"obj-1::obj-18::obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[5]"
+				}
+,
+				"obj-1::obj-20::obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-1::obj-20::obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[9]"
+				}
+,
+				"obj-1::obj-21::obj-3::obj-15" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-1::obj-21::obj-3::obj-3" : 				{
+					"parameter_longname" : "live.tab[6]"
+				}
+,
 				"obj-1::obj-3::obj-3::obj-15" : 				{
 					"parameter_longname" : "live.dial"
 				}
@@ -420,21 +544,35 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.subsmoother.maxpat",
+				"name" : "mb.gyro.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.subsmoother.js",
+				"name" : "mb.ma-sensorderivative.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.mapper.maxpat",
+				"name" : "mb.ma-sensorframe.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.ma-sensorvelocity.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.magnet.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
@@ -448,17 +586,38 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.magnet.maxpat",
+				"name" : "mb.mapper.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mb.gyro.maxpat",
+				"name" : "mb.quaternion.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
 				"patcherrelativepath" : "../../misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.subsmoother.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.subsmoother.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mb.utils.js",
+				"bootpath" : "~/Documents/Max 8/Packages/MetaBow-Toolkit/misc",
+				"patcherrelativepath" : "../../misc",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
